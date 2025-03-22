@@ -1,0 +1,99 @@
+<odoo>
+        <record id="pl_work_assignment_tree" model="ir.ui.view">
+            <field name="name">pl.work.assignment.tree ()</field>
+            <field name="model">pl.work.assignment</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="pl_foreman_id"/>
+                    <field name="pl_stage_id"/>
+                    <field name="work_start_datetime" widget="datetime"/>
+                    <field name="work_finish_datetime" widget="datetime"/>
+                    <field name="state"/>
+                    <field name="pl_order_product_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="pl_work_assignment_form" model="ir.ui.view">
+            <field name="name">pl.work.assignment.form ()</field>
+            <field name="model">pl.work.assignment</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <field name="state" widget="statusbar" options="{'clickable': '1'}"/>
+                    </header>
+                        <group>
+                            <group>
+                                <field name="pl_foreman_id"/>
+                                <field name="pl_stage_id"/>
+                                <field name="pl_process_id" readonly="1"/>
+                                <field name="work_start_datetime" widget="datetime"/>
+                                <field name="work_finish_datetime" widget="datetime"/>
+                            </group>
+                            <group>
+                                <field name="pl_order_product_id"/>
+                                <field name="pl_client_id" readonly="1"/>
+                                <field name="pl_order_id" readonly="1"/>
+                                <field name="pl_product_id" readonly="1"/>
+                            </group>
+                        </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="pl_work_assignment_calendar" model="ir.ui.view">
+            <field name="name">pl.work.assignment.calendar ()</field>
+            <field name="model">pl.work.assignment</field>
+            <field name="priority" eval="10"/>
+            <field name="arch" type="xml">
+                <calendar mode="month"
+                          date_start="work_start_datetime"
+                          date_stop="work_finish_datetime"
+                          color="pl_foreman_id">
+                    <field name="pl_foreman_id" filters="1"/>
+                    <field name="pl_client_id" filters="1"/>
+                    <field name="pl_order_id" filters="1"/>
+                    <field name="pl_product_id" filters="1"/>
+                    <field name="pl_process_id" filters="1"/>
+                </calendar>
+            </field>
+        </record>
+
+<!--        <record id="pl_work_assignment_pivot" model="ir.ui.view">-->
+<!--            <field name="name">pl.work.assignment.pivot (pl_work_assignment)</field>-->
+<!--            <field name="model">pl.work.assignment</field>-->
+<!--            <field name="priority">50</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <pivot display_quantity="1">-->
+<!--                    <field name="state" type="col"/>-->
+<!--                    <field name="visit_datetime" interval="month" type="col"/>-->
+<!--                    <field name="doctor_id" type="row"/>-->
+<!--                </pivot>-->
+<!--            </field>-->
+<!--        </record>-->
+
+        <record id="pl_work_assignment_search" model="ir.ui.view">
+            <field name="name">pl.work.assignment.search (pl_work_assignment)</field>
+            <field name="model">pl.work.assignment</field>
+            <field name="arch" type="xml">
+                <search string="Filters">
+                    <group expand="0" string="Group By">
+                        <filter name="pl_foreman_id" context="{'group_by':'pl_foreman_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="action_pl_work_assignment_window" model="ir.actions.act_window">
+            <field name="name">Work assignment</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pl.work.assignment</field>
+            <field name="view_mode">tree,form,pivot,calendar</field>
+        </record>
+
+        <menuitem id="pl_menu_work_assignment"
+                  action="action_pl_work_assignment_window"
+                  parent="pl_main_menu"
+                  name="Work assignment" sequence="400"/>
+
+</odoo>

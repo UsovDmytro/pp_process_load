@@ -1,0 +1,38 @@
+<odoo>
+        <record id="pl_product_tree" model="ir.ui.view">
+            <field name="name">pl.product.tree ()</field>
+            <field name="model">pl.product</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="abbreviation"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="pl_product_form" model="ir.ui.view">
+            <field name="name">pl.product.form ()</field>
+            <field name="model">pl.product</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="abbreviation"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_pl_product_window" model="ir.actions.act_window">
+            <field name="name">Product</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pl.product</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="pl_menu_product"
+                  action="action_pl_product_window"
+                  parent="pl_main_menu"
+                  name="Product" sequence="400"/>
+
+</odoo>

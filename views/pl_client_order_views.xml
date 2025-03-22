@@ -1,0 +1,39 @@
+<odoo>
+        <record id="pl_client_order_tree" model="ir.ui.view">
+            <field name="name">pl.client.order.tree ()</field>
+            <field name="model">pl.client.order</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="pl_order_number"/>
+                    <field name="pl_client_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="pl_client_order_form" model="ir.ui.view">
+            <field name="name">pl.client.order.form ()</field>
+            <field name="model">pl.client.order</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="pl_order_number"/>
+                        <field name="pl_client_id"/>
+                        <field name="pl_order_product_ids" widget="many2many_tags" readonly="1"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_pl_client_order_window" model="ir.actions.act_window">
+            <field name="name">Client order</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pl.client.order</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="pl_menu_client_order"
+                  action="action_pl_client_order_window"
+                  parent="pl_main_menu"
+                  name="Client order" sequence="400"/>
+
+</odoo>

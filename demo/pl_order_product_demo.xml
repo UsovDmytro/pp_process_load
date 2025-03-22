@@ -1,0 +1,369 @@
+﻿<odoo>
+	<data noupdate="1">
+		<record id="pl_order_product_demo_10" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_9"/>
+		</record>
+		<record id="pl_order_product_demo_9" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_6"/>
+			<field name="pl_product_id" ref="pl_product_demo_8"/>
+		</record>
+		<record id="pl_order_product_demo_1" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_1"/>
+		</record>
+		<record id="pl_order_product_demo_6" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_6"/>
+		</record>
+		<record id="pl_order_product_demo_36" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_17"/>
+		</record>
+		<record id="pl_order_product_demo_28" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_24"/>
+		</record>
+		<record id="pl_order_product_demo_2" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_2"/>
+			<field name="pl_product_id" ref="pl_product_demo_1"/>
+		</record>
+		<record id="pl_order_product_demo_3" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_2"/>
+		</record>
+		<record id="pl_order_product_demo_4" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_4"/>
+		</record>
+		<record id="pl_order_product_demo_5" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_5"/>
+		</record>
+		<record id="pl_order_product_demo_60" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_39"/>
+		</record>
+		<record id="pl_order_product_demo_8" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_5"/>
+			<field name="pl_product_id" ref="pl_product_demo_7"/>
+		</record>
+		<record id="pl_order_product_demo_24" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_10"/>
+			<field name="pl_product_id" ref="pl_product_demo_21"/>
+		</record>
+		<record id="pl_order_product_demo_11" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_7"/>
+			<field name="pl_product_id" ref="pl_product_demo_10"/>
+		</record>
+		<record id="pl_order_product_demo_7" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_4"/>
+			<field name="pl_product_id" ref="pl_product_demo_4"/>
+		</record>
+		<record id="pl_order_product_demo_12" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_7"/>
+		</record>
+		<record id="pl_order_product_demo_57" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_4"/>
+		</record>
+		<record id="pl_order_product_demo_13" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_6"/>
+			<field name="pl_product_id" ref="pl_product_demo_11"/>
+		</record>
+		<record id="pl_order_product_demo_16" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_14"/>
+		</record>
+		<record id="pl_order_product_demo_14" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_12"/>
+		</record>
+		<record id="pl_order_product_demo_27" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_23"/>
+		</record>
+		<record id="pl_order_product_demo_15" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_8"/>
+			<field name="pl_product_id" ref="pl_product_demo_13"/>
+		</record>
+		<record id="pl_order_product_demo_58" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_12"/>
+		</record>
+		<record id="pl_order_product_demo_17" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_15"/>
+		</record>
+		<record id="pl_order_product_demo_50" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_30"/>
+		</record>
+		<record id="pl_order_product_demo_55" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_19"/>
+		</record>
+		<record id="pl_order_product_demo_32" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_4"/>
+			<field name="pl_product_id" ref="pl_product_demo_24"/>
+		</record>
+		<record id="pl_order_product_demo_18" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_7"/>
+			<field name="pl_product_id" ref="pl_product_demo_16"/>
+		</record>
+		<record id="pl_order_product_demo_19" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_17"/>
+		</record>
+		<record id="pl_order_product_demo_20" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_8"/>
+		</record>
+		<record id="pl_order_product_demo_21" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_9"/>
+			<field name="pl_product_id" ref="pl_product_demo_18"/>
+		</record>
+		<record id="pl_order_product_demo_48" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_34"/>
+		</record>
+		<record id="pl_order_product_demo_38" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_29"/>
+		</record>
+		<record id="pl_order_product_demo_26" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_11"/>
+			<field name="pl_product_id" ref="pl_product_demo_8"/>
+		</record>
+		<record id="pl_order_product_demo_22" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_19"/>
+		</record>
+		<record id="pl_order_product_demo_23" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_20"/>
+		</record>
+		<record id="pl_order_product_demo_30" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_23"/>
+		</record>
+		<record id="pl_order_product_demo_25" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_11"/>
+			<field name="pl_product_id" ref="pl_product_demo_22"/>
+		</record>
+		<record id="pl_order_product_demo_29" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_4"/>
+			<field name="pl_product_id" ref="pl_product_demo_25"/>
+		</record>
+		<record id="pl_order_product_demo_43" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_32"/>
+		</record>
+		<record id="pl_order_product_demo_31" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_6"/>
+			<field name="pl_product_id" ref="pl_product_demo_24"/>
+		</record>
+		<record id="pl_order_product_demo_33" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_26"/>
+		</record>
+		<record id="pl_order_product_demo_53" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_37"/>
+		</record>
+		<record id="pl_order_product_demo_34" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_8"/>
+			<field name="pl_product_id" ref="pl_product_demo_27"/>
+		</record>
+		<record id="pl_order_product_demo_35" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_4"/>
+		</record>
+		<record id="pl_order_product_demo_59" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_32"/>
+		</record>
+		<record id="pl_order_product_demo_46" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_33"/>
+		</record>
+		<record id="pl_order_product_demo_37" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_28"/>
+		</record>
+		<record id="pl_order_product_demo_39" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_30"/>
+		</record>
+		<record id="pl_order_product_demo_40" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_31"/>
+		</record>
+		<record id="pl_order_product_demo_41" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_1"/>
+			<field name="pl_product_id" ref="pl_product_demo_3"/>
+		</record>
+		<record id="pl_order_product_demo_42" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_4"/>
+		</record>
+		<record id="pl_order_product_demo_45" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_11"/>
+		</record>
+		<record id="pl_order_product_demo_44" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_10"/>
+		</record>
+		<record id="pl_order_product_demo_47" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_2"/>
+		</record>
+		<record id="pl_order_product_demo_49" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_35"/>
+		</record>
+		<record id="pl_order_product_demo_51" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_36"/>
+		</record>
+		<record id="pl_order_product_demo_52" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_20"/>
+		</record>
+		<record id="pl_order_product_demo_73" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_43"/>
+		</record>
+		<record id="pl_order_product_demo_54" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_38"/>
+		</record>
+		<record id="pl_order_product_demo_56" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_24"/>
+		</record>
+		<record id="pl_order_product_demo_61" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_40"/>
+		</record>
+		<record id="pl_order_product_demo_62" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_29"/>
+		</record>
+		<record id="pl_order_product_demo_63" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_41"/>
+		</record>
+		<record id="pl_order_product_demo_64" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_42"/>
+		</record>
+		<record id="pl_order_product_demo_65" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_43"/>
+		</record>
+		<record id="pl_order_product_demo_66" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_13"/>
+			<field name="pl_product_id" ref="pl_product_demo_44"/>
+		</record>
+		<record id="pl_order_product_demo_67" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_12"/>
+			<field name="pl_product_id" ref="pl_product_demo_45"/>
+		</record>
+		<record id="pl_order_product_demo_68" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_6"/>
+		</record>
+		<record id="pl_order_product_demo_69" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_14"/>
+		</record>
+		<record id="pl_order_product_demo_70" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_15"/>
+		</record>
+		<record id="pl_order_product_demo_71" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_14"/>
+			<field name="pl_product_id" ref="pl_product_demo_9"/>
+		</record>
+		<record id="pl_order_product_demo_72" model="pl.order.product">
+			<field name="pl_quantity">1</field>
+			<field name="pl_client_order_id" ref="pl_client_order_demo_3"/>
+			<field name="pl_product_id" ref="pl_product_demo_39"/>
+		</record>
+	</data>
+</odoo>

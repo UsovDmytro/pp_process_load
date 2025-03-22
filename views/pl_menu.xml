@@ -1,0 +1,12 @@
+<odoo>
+
+    <menuitem id="pl_catalog_main_menu"
+              name="Production plan"
+              web_icon="pp_process_load,static/description/icon.png"
+              sequence="100"/>
+
+    <menuitem id="pl_main_menu"
+              parent="pl_catalog_main_menu"
+              name="Process load" sequence="200"/>
+
+</odoo>

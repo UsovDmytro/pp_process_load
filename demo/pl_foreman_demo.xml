@@ -1,0 +1,49 @@
+﻿<odoo>
+	<data noupdate="1">
+		<record id="pl_foreman_demo_7" model="pl.foreman">
+			<field name="name">Осінній Р.</field>
+		</record>
+		<record id="pl_foreman_demo_1" model="pl.foreman">
+			<field name="name">Величко І.</field>
+		</record>
+		<record id="pl_foreman_demo_2" model="pl.foreman">
+			<field name="name">Каян Д. В.</field>
+		</record>
+		<record id="pl_foreman_demo_3" model="pl.foreman">
+			<field name="name">Герасимчук О. В.</field>
+		</record>
+		<record id="pl_foreman_demo_4" model="pl.foreman">
+			<field name="name">Зінченко А.</field>
+		</record>
+		<record id="pl_foreman_demo_5" model="pl.foreman">
+			<field name="name">Голошивець І.</field>
+		</record>
+		<record id="pl_foreman_demo_8" model="pl.foreman">
+			<field name="name">Орлов В.</field>
+		</record>
+		<record id="pl_foreman_demo_12" model="pl.foreman">
+			<field name="name">Зайченко А.</field>
+		</record>
+		<record id="pl_foreman_demo_6" model="pl.foreman">
+			<field name="name">Стецюк В. В.</field>
+		</record>
+		<record id="pl_foreman_demo_9" model="pl.foreman">
+			<field name="name">Світличний О.</field>
+		</record>
+		<record id="pl_foreman_demo_10" model="pl.foreman">
+			<field name="name">Пільганський О</field>
+		</record>
+		<record id="pl_foreman_demo_11" model="pl.foreman">
+			<field name="name">Євлашевський О.</field>
+		</record>
+		<record id="pl_foreman_demo_13" model="pl.foreman">
+			<field name="name">Зубленко Д.</field>
+		</record>
+		<record id="pl_foreman_demo_14" model="pl.foreman">
+			<field name="name">Герасимчук С. В.</field>
+		</record>
+		<record id="pl_foreman_demo_15" model="pl.foreman">
+			<field name="name">Антонь С.</field>
+		</record>
+	</data>
+</odoo>

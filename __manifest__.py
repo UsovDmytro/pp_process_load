@@ -1,0 +1,40 @@
+{
+    'name': 'Production plan. Process load',
+    'summary': '',
+    'author': 'Usov Dmytro',
+    'category': 'Customizations',
+    'license': 'OPL-1',
+    'version': '17.0.1.0.0',
+    'depends': ['base',],
+    'external_dependencies': {
+        'python': [],
+    },
+    'data': [
+        'security/pl_groups.xml',
+        'security/pl_security.xml',
+        'security/ir.model.access.csv',
+        'wizard/pl_change_day_wa_wizard_view.xml',
+        'views/pl_menu.xml',
+        'views/pl_client_views.xml',
+        'views/pl_client_order_views.xml',
+        'views/pl_product_views.xml',
+        'views/pl_foreman_views.xml',
+        'views/pl_order_product_views.xml',
+        'views/pl_stage_views.xml',
+        'views/pl_work_assignment_views.xml',
+
+        'report/pl_client_order_report.xml',
+
+    ],
+    'demo': [
+        'demo/pl_client_demo.xml',
+        'demo/pl_client_order_demo.xml',
+        'demo/pl_foreman_demo.xml',
+        'demo/pl_product_demo.xml',
+        'demo/pl_order_product_demo.xml',
+        'demo/pl_stage_demo.xml',
+        'demo/pl_work_assignment_demo.xml',
+    ],
+    'installable': True,
+    'auto_install': False,
+}

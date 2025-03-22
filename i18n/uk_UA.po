@@ -1,0 +1,387 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pp_process_load
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20250320\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-22 02:09+0000\n"
+"PO-Revision-Date: 2025-03-22 02:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: pp_process_load
+#: model:ir.actions.report,print_report_name:pp_process_load.pl_client_order_report
+msgid "(object._get_report_base_filename())"
+msgstr ""
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__abbreviation
+msgid "Abbreviation"
+msgstr "Скорочення"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__active
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: pp_process_load
+#: model:res.groups,name:pp_process_load.group_pl_admin
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#. module: pp_process_load
+#: model:res.groups,comment:pp_process_load.group_pl_admin
+msgid "Administrators of the Process load (full rights)"
+msgstr "Адміністратори завантаження процесу (повні права)"
+
+#. module: pp_process_load
+#: model_terms:ir.ui.view,arch_db:pp_process_load.pl_change_day_wa_wizard
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/wizard/pl_change_day_wa_wizard.py:0
+#: model:ir.model,name:pp_process_load.model_pl_change_day_wa_wizard
+#, python-format
+msgid "Change day WA"
+msgstr "Змінити день WA"
+
+#. module: pp_process_load
+#: model:ir.actions.act_window,name:pp_process_load.pl_change_day_wa_wizard_action
+#: model_terms:ir.ui.view,arch_db:pp_process_load.pl_change_day_wa_wizard
+msgid "Change days"
+msgstr "Змінити дні"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_client.py:0
+#: code:addons/pp_process_load/models/pl_client_order.py:0
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_client_window
+#: model:ir.model,name:pp_process_load.model_pl_client
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__pl_client_id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_client_id
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_client
+#, python-format
+msgid "Client"
+msgstr "Клієнт"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_client_order.py:0
+#: code:addons/pp_process_load/models/pl_order_product.py:0
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: code:addons/pp_process_load/wizard/pl_change_day_wa_wizard.py:0
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_client_order_window
+#: model:ir.model,name:pp_process_load.model_pl_client_order
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__pl_client_order_id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__pl_client_order_id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_order_id
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_client_order
+#, python-format
+msgid "Client order"
+msgstr "Клієнтське замовлення"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__create_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__create_uid
+msgid "Created by"
+msgstr "Створено користувачем"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__create_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__days_change
+msgid "Days Change"
+msgstr "Зміна днів"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__display_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__display_name
+msgid "Display Name"
+msgstr "Відображуване ім'я"
+
+#. module: pp_process_load
+#: model:ir.actions.report,name:pp_process_load.pl_client_order_report
+msgid "Order report"
+msgstr "Звіт замовлення"
+
+#. module: pp_process_load
+#: model_terms:ir.ui.view,arch_db:pp_process_load.pl_work_assignment_search
+msgid "Filters"
+msgstr "Фільтри"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: code:addons/pp_process_load/wizard/pl_change_day_wa_wizard.py:0
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_foreman_window
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__pl_foreman_id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_foreman_id
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_foreman
+#, python-format
+msgid "Foreman"
+msgstr "Бригадир"
+
+#. module: pp_process_load
+#: model_terms:ir.ui.view,arch_db:pp_process_load.pl_work_assignment_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__id
+msgid "ID"
+msgstr "Ідентифікатор"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__write_uid
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__write_uid
+msgid "Last Updated by"
+msgstr "Оновлено користувачем"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__write_date
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__write_date
+msgid "Last Updated on"
+msgstr "Дата оновлення"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_product__name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_order_product.py:0
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.model,name:pp_process_load.model_pl_order_product
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_order_product_id
+#, python-format
+msgid "Order Product"
+msgstr "Продукт замовлення"
+
+#. module: pp_process_load
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_order_product_window
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_order_product
+msgid "Order product"
+msgstr "Продукт замовлення"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_client_order.py:0
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__pl_order_product_ids
+#, python-format
+msgid "Order products"
+msgstr "Продукти замовлення"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_client.py:0
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client__client_order_ids
+#, python-format
+msgid "Orders"
+msgstr "Замовлення"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_client_order__pl_order_number
+msgid "Pl Order Number"
+msgstr "PL номер замовлення"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_stage__pl_process
+msgid "Pl Process"
+msgstr "PL процес"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__pl_quantity
+msgid "Pl Quantity"
+msgstr "PL кількість"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_process_id
+#, python-format
+msgid "Process"
+msgstr "Процес"
+
+#. module: pp_process_load
+#: model:ir.module.category,name:pp_process_load.category_pl
+#: model:ir.ui.menu,name:pp_process_load.pl_main_menu
+msgid "Process load"
+msgstr "Завантаження процесу"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_order_product.py:0
+#: code:addons/pp_process_load/models/pl_product.py:0
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: code:addons/pp_process_load/wizard/pl_change_day_wa_wizard.py:0
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_product_window
+#: model:ir.model,name:pp_process_load.model_pl_product
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__pl_product_id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__pl_product_id
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_product_id
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_product
+#: model_terms:ir.ui.view,arch_db:pp_process_load.pl_client_order_info_template
+#, python-format
+msgid "Product"
+msgstr "Продукт"
+
+#. module: pp_process_load
+#: model:ir.ui.menu,name:pp_process_load.pl_catalog_main_menu
+msgid "Production plan"
+msgstr "План виробництва"
+
+#. module: pp_process_load
+#: model_terms:ir.ui.view,arch_db:pp_process_load.pl_client_order_info_template
+msgid "Quantity"
+msgstr "Кількість"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_stage.py:0
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_stage_window
+#: model:ir.model,name:pp_process_load.model_pl_stage
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__pl_stage_id
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_stage
+#, python-format
+msgid "Stage"
+msgstr "Етап"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__state
+msgid "State"
+msgstr "Стан"
+
+#. module: pp_process_load
+#: model:res.groups,comment:pp_process_load.group_pl_user
+#: model:res.groups,name:pp_process_load.group_pl_user
+msgid "User"
+msgstr "Користувач"
+
+#. module: pp_process_load
+#: model:ir.module.category,description:pp_process_load.category_pl
+msgid "User access levels for the Process load"
+msgstr "Рівні доступу користувачів для завантаження процесу"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/wizard/pl_change_day_wa_wizard.py:0
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_change_day_wa_wizard__pl_wa_ids
+#, python-format
+msgid "WA"
+msgstr "Розподіл роботи"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__work_finish_datetime
+msgid "Work Finish Datetime"
+msgstr "Дата та час завершення роботи"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__work_start_datetime
+msgid "Work Start Datetime"
+msgstr "Дата та час початку роботи"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.actions.act_window,name:pp_process_load.action_pl_work_assignment_window
+#: model:ir.model,name:pp_process_load.model_pl_work_assignment
+#: model:ir.ui.menu,name:pp_process_load.pl_menu_work_assignment
+#, python-format
+msgid "Work assignment"
+msgstr "Розподіл роботи"
+
+#. module: pp_process_load
+#: model:ir.model,name:pp_process_load.model_pl_foreman
+msgid "Бригадир"
+msgstr "Бригадир"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.model.fields.selection,name:pp_process_load.selection__pl_work_assignment__state__in_process
+#, python-format
+msgid "В процесі"
+msgstr "В процесі"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.model.fields.selection,name:pp_process_load.selection__pl_work_assignment__state__done
+#, python-format
+msgid "Завершено"
+msgstr "Завершено"
+
+#. module: pp_process_load
+#. odoo-python
+#: code:addons/pp_process_load/models/pl_work_assignment.py:0
+#: model:ir.model.fields.selection,name:pp_process_load.selection__pl_work_assignment__state__plan
+#, python-format
+msgid "Заплановано"
+msgstr "Заплановано"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_order_product__custom_name
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_work_assignment__custom_name
+msgid "Отображаемое имя"
+msgstr "Відображуване ім'я"
+
+#. module: pp_process_load
+#: model:ir.model.fields,field_description:pp_process_load.field_pl_foreman__user_id
+msgid "Пользователь"
+msgstr "Користувач"

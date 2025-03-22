@@ -1,0 +1,37 @@
+<odoo>
+        <record id="pl_client_tree" model="ir.ui.view">
+            <field name="name">pl.client.tree ()</field>
+            <field name="model">pl.client</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="pl_client_form" model="ir.ui.view">
+            <field name="name">pl.client.form ()</field>
+            <field name="model">pl.client</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                        <field name="client_order_ids" widget="many2many_tags" readonly="1"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_pl_client_window" model="ir.actions.act_window">
+            <field name="name">Client</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pl.client</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="pl_menu_client"
+                  action="action_pl_client_window"
+                  parent="pl_main_menu"
+                  name="Client" sequence="400"/>
+
+</odoo>

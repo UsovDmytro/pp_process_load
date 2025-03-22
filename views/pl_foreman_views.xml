@@ -1,0 +1,36 @@
+<odoo>
+        <record id="pl_foreman_tree" model="ir.ui.view">
+            <field name="name">pl.foreman.tree ()</field>
+            <field name="model">pl.foreman</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="pl_foreman_form" model="ir.ui.view">
+            <field name="name">pl.foreman.form ()</field>
+            <field name="model">pl.foreman</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_pl_foreman_window" model="ir.actions.act_window">
+            <field name="name">Foreman</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">pl.foreman</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="pl_menu_foreman"
+                  action="action_pl_foreman_window"
+                  parent="pl_main_menu"
+                  name="Foreman" sequence="400"/>
+
+</odoo>

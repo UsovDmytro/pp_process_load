@@ -1,0 +1,43 @@
+﻿<odoo>
+    <data noupdate="1">
+        <record id="pl_client_demo_5" model="pl.client">
+            <field name="name">Кулинич Олена Андріївна</field>
+        </record>
+        <record id="pl_client_demo_4" model="pl.client">
+            <field name="name">Янчук Маргарита Петрівна</field>
+        </record>
+        <record id="pl_client_demo_1" model="pl.client">
+            <field name="name">Іванов Сергій Миколайович</field>
+        </record>
+        <record id="pl_client_demo_9" model="pl.client">
+            <field name="name">ТОВ Хмарні Рішення</field>
+        </record>
+        <record id="pl_client_demo_2" model="pl.client">
+            <field name="name">Щербак Дмитро Володимирович</field>
+        </record>
+        <record id="pl_client_demo_3" model="pl.client">
+            <field name="name">Ковальчук Михайло Олександрович</field>
+        </record>
+        <record id="pl_client_demo_6" model="pl.client">
+            <field name="name">ТОВ Пром-Техно Альянс</field>
+        </record>
+        <record id="pl_client_demo_7" model="pl.client">
+            <field name="name">ТОВ Енерго Сервіс</field>
+        </record>
+        <record id="pl_client_demo_8" model="pl.client">
+            <field name="name">SIA “Luxury Perfume Boutique”</field>
+        </record>
+        <record id="pl_client_demo_10" model="pl.client">
+            <field name="name">Сидоренко Ігор Петрович (покупець)</field>
+        </record>
+        <record id="pl_client_demo_11" model="pl.client">
+            <field name="name">Левченко Андрій Олегович</field>
+        </record>
+        <record id="pl_client_demo_12" model="pl.client">
+            <field name="name">Татаренко Ярослав Михайлович</field>
+        </record>
+        <record id="pl_client_demo_13" model="pl.client">
+            <field name="name">Гончаренко Олексій Валерійович</field>
+        </record>
+    </data>
+</odoo>
