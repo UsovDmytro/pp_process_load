@@ -32,7 +32,7 @@
 
         <menuitem id="pl_menu_product"
                   action="action_pl_product_window"
-                  parent="pl_main_menu"
+                  parent="pl_catalog_menu"
                   name="Product" sequence="400"/>
 
 </odoo>

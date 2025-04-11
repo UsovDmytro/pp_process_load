@@ -1,60 +1,60 @@
 ﻿<odoo>
 	<data noupdate="1">
-		<record id="pl_client_order_demo_8" model="pl.client.order">
-			<field name="pl_order_number">764</field>
-			<field name="pl_client_id" ref="pl_client_demo_4"/>
+		<record id="client_order_demo_8" model="pl.client.order">
+			<field name="order_number">764</field>
+			<field name="client_id" ref="client_demo_4"/>
 		</record>
-		<record id="pl_client_order_demo_1" model="pl.client.order">
-			<field name="pl_order_number">749</field>
-			<field name="pl_client_id" ref="pl_client_demo_1"/>
+		<record id="client_order_demo_1" model="pl.client.order">
+			<field name="order_number">749</field>
+			<field name="client_id" ref="client_demo_1"/>
 		</record>
-		<record id="pl_client_order_demo_13" model="pl.client.order">
-			<field name="pl_order_number">722</field>
-			<field name="pl_client_id" ref="pl_client_demo_12"/>
+		<record id="client_order_demo_13" model="pl.client.order">
+			<field name="order_number">722</field>
+			<field name="client_id" ref="client_demo_12"/>
 		</record>
-		<record id="pl_client_order_demo_2" model="pl.client.order">
-			<field name="pl_order_number">763</field>
-			<field name="pl_client_id" ref="pl_client_demo_2"/>
+		<record id="client_order_demo_2" model="pl.client.order">
+			<field name="order_number">763</field>
+			<field name="client_id" ref="client_demo_2"/>
 		</record>
-		<record id="pl_client_order_demo_6" model="pl.client.order">
-			<field name="pl_order_number">792</field>
-			<field name="pl_client_id" ref="pl_client_demo_6"/>
+		<record id="client_order_demo_6" model="pl.client.order">
+			<field name="order_number">792</field>
+			<field name="client_id" ref="client_demo_6"/>
 		</record>
-		<record id="pl_client_order_demo_4" model="pl.client.order">
-			<field name="pl_order_number">758</field>
-			<field name="pl_client_id" ref="pl_client_demo_4"/>
+		<record id="client_order_demo_4" model="pl.client.order">
+			<field name="order_number">758</field>
+			<field name="client_id" ref="client_demo_4"/>
 		</record>
-		<record id="pl_client_order_demo_3" model="pl.client.order">
-			<field name="pl_order_number">720</field>
-			<field name="pl_client_id" ref="pl_client_demo_3"/>
+		<record id="client_order_demo_3" model="pl.client.order">
+			<field name="order_number">720</field>
+			<field name="client_id" ref="client_demo_3"/>
 		</record>
-		<record id="pl_client_order_demo_5" model="pl.client.order">
-			<field name="pl_order_number">752</field>
-			<field name="pl_client_id" ref="pl_client_demo_5"/>
+		<record id="client_order_demo_5" model="pl.client.order">
+			<field name="order_number">752</field>
+			<field name="client_id" ref="client_demo_5"/>
 		</record>
-		<record id="pl_client_order_demo_9" model="pl.client.order">
-			<field name="pl_order_number">787</field>
-			<field name="pl_client_id" ref="pl_client_demo_8"/>
+		<record id="client_order_demo_9" model="pl.client.order">
+			<field name="order_number">787</field>
+			<field name="client_id" ref="client_demo_8"/>
 		</record>
-		<record id="pl_client_order_demo_7" model="pl.client.order">
-			<field name="pl_order_number">780</field>
-			<field name="pl_client_id" ref="pl_client_demo_7"/>
+		<record id="client_order_demo_7" model="pl.client.order">
+			<field name="order_number">780</field>
+			<field name="client_id" ref="client_demo_7"/>
 		</record>
-		<record id="pl_client_order_demo_10" model="pl.client.order">
-			<field name="pl_order_number">779</field>
-			<field name="pl_client_id" ref="pl_client_demo_9"/>
+		<record id="client_order_demo_10" model="pl.client.order">
+			<field name="order_number">779</field>
+			<field name="client_id" ref="client_demo_9"/>
 		</record>
-		<record id="pl_client_order_demo_11" model="pl.client.order">
-			<field name="pl_order_number">786</field>
-			<field name="pl_client_id" ref="pl_client_demo_10"/>
+		<record id="client_order_demo_11" model="pl.client.order">
+			<field name="order_number">786</field>
+			<field name="client_id" ref="client_demo_10"/>
 		</record>
-		<record id="pl_client_order_demo_12" model="pl.client.order">
-			<field name="pl_order_number">660</field>
-			<field name="pl_client_id" ref="pl_client_demo_11"/>
+		<record id="client_order_demo_12" model="pl.client.order">
+			<field name="order_number">660</field>
+			<field name="client_id" ref="client_demo_11"/>
 		</record>
-		<record id="pl_client_order_demo_14" model="pl.client.order">
-			<field name="pl_order_number">706</field>
-			<field name="pl_client_id" ref="pl_client_demo_13"/>
+		<record id="client_order_demo_14" model="pl.client.order">
+			<field name="order_number">706</field>
+			<field name="client_id" ref="client_demo_13"/>
 		</record>
 	</data>
 </odoo>

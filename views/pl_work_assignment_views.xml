@@ -4,12 +4,12 @@
             <field name="model">pl.work.assignment</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="pl_foreman_id"/>
-                    <field name="pl_stage_id"/>
+                    <field name="foreman_id"/>
+                    <field name="stage_id"/>
                     <field name="work_start_datetime" widget="datetime"/>
                     <field name="work_finish_datetime" widget="datetime"/>
                     <field name="state"/>
-                    <field name="pl_order_product_id"/>
+                    <field name="order_product_id"/>
                 </tree>
             </field>
         </record>
@@ -20,21 +20,21 @@
             <field name="arch" type="xml">
                 <form>
                     <header>
-                        <field name="state" widget="statusbar" options="{'clickable': '1'}"/>
+                        <field name="state" widget="statusbar" options="{'clickable': readonly_form}"/>
                     </header>
                         <group>
                             <group>
-                                <field name="pl_foreman_id"/>
-                                <field name="pl_stage_id"/>
-                                <field name="pl_process_id" readonly="1"/>
+                                <field name="foreman_id"/>
+                                <field name="stage_id"/>
+                                <field name="process_id" readonly="1"/>
                                 <field name="work_start_datetime" widget="datetime"/>
                                 <field name="work_finish_datetime" widget="datetime"/>
                             </group>
                             <group>
-                                <field name="pl_order_product_id"/>
-                                <field name="pl_client_id" readonly="1"/>
-                                <field name="pl_order_id" readonly="1"/>
-                                <field name="pl_product_id" readonly="1"/>
+                                <field name="order_product_id"/>
+                                <field name="client_id" readonly="1"/>
+                                <field name="order_id" readonly="1"/>
+                                <field name="product_id" readonly="1"/>
                             </group>
                         </group>
                 </form>
@@ -49,12 +49,12 @@
                 <calendar mode="month"
                           date_start="work_start_datetime"
                           date_stop="work_finish_datetime"
-                          color="pl_foreman_id">
-                    <field name="pl_foreman_id" filters="1"/>
-                    <field name="pl_client_id" filters="1"/>
-                    <field name="pl_order_id" filters="1"/>
-                    <field name="pl_product_id" filters="1"/>
-                    <field name="pl_process_id" filters="1"/>
+                          color="foreman_id">
+                    <field name="foreman_id" filters="1"/>
+                    <field name="client_id" filters="1"/>
+                    <field name="order_id" filters="1"/>
+                    <field name="product_id" filters="1"/>
+                    <field name="process_id" filters="1"/>
                 </calendar>
             </field>
         </record>
@@ -78,7 +78,7 @@
             <field name="arch" type="xml">
                 <search string="Filters">
                     <group expand="0" string="Group By">
-                        <filter name="pl_foreman_id" context="{'group_by':'pl_foreman_id'}"/>
+                        <filter name="foreman_id" context="{'group_by':'foreman_id'}"/>
                     </group>
                 </search>
             </field>
@@ -88,12 +88,12 @@
             <field name="name">Work assignment</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">pl.work.assignment</field>
-            <field name="view_mode">tree,form,pivot,calendar</field>
+            <field name="view_mode">calendar,tree,form,pivot</field>
         </record>
 
         <menuitem id="pl_menu_work_assignment"
                   action="action_pl_work_assignment_window"
                   parent="pl_main_menu"
-                  name="Work assignment" sequence="400"/>
+                  name="Work assignment" sequence="100"/>
 
 </odoo>

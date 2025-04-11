@@ -9,4 +9,12 @@
               parent="pl_catalog_main_menu"
               name="Process load" sequence="200"/>
 
+    <menuitem id="pl_catalog_menu"
+              parent="pl_catalog_main_menu"
+              name="Сatalog" sequence="300"/>
+
+    <menuitem id="pl_setting_menu"
+              parent="pl_catalog_main_menu"
+              name="Setting" sequence="400"/>
+
 </odoo>

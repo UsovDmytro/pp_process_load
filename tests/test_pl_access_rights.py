@@ -13,28 +13,28 @@ class TestAccessRights(TestCommon):
             {'name': 'Test client',
              })
         test_client_order = self.env['pl.client.order'].with_user(self.pl_admin).create(
-            {'pl_order_number': '100',
-             'pl_client_id': test_client.id,
+            {'order_number': '100',
+             'client_id': test_client.id,
              })
         test_product = self.env['pl.product'].with_user(self.pl_admin).create(
             {'name': 'Test product',
              })
         test_order_product = self.env['pl.order.product'].with_user(self.pl_admin).create(
-            {'pl_client_order_id': test_client_order.id,
-             'pl_quantity': 1,
-             'pl_product_id': test_product.id,
+            {'client_order_id': test_client_order.id,
+             'quantity': 1,
+             'product_id': test_product.id,
              })
         test_stage = self.env['pl.stage'].with_user(self.pl_admin).create(
-            {'pl_process': 'slicing',
+            {'process': 'slicing',
              'name': 'Test stage',
              })
         test_stage_2 = self.env['pl.stage'].with_user(self.pl_admin).create(
-            {'pl_process': 'slicing',
+            {'process': 'slicing',
              'name': 'Test stage 2',
              })
         self.env['pl.work.assignment'].with_user(self.pl_admin).create(
-            {'pl_foreman_id': self.foreman.id,
-             'pl_order_product_id': test_order_product.id,
+            {'foreman_id': self.foreman.id,
+             'order_product_id': test_order_product.id,
              'test_stage': test_stage.id,
              'work_start_datetime': datetime.datetime.now(),
              'work_finish_datetime': datetime.datetime.now() + datetime.timedelta(days=1),
@@ -42,8 +42,8 @@ class TestAccessRights(TestCommon):
 
         with self.assertRaises(AccessError):
             self.env['pl.work.assignment'].with_user(self.pl_user_2).create(
-                {'pl_foreman_id': self.foreman.id,
-                 'pl_order_product_id': test_order_product.id,
+                {'foreman_id': self.foreman.id,
+                 'order_product_id': test_order_product.id,
                  'test_stage': test_stage_2.id,
                  'work_start_datetime': datetime.datetime.now(),
                  'work_finish_datetime': datetime.datetime.now() + datetime.timedelta(days=1),

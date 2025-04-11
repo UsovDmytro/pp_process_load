@@ -31,7 +31,7 @@
 
         <menuitem id="pl_menu_client"
                   action="action_pl_client_window"
-                  parent="pl_main_menu"
+                  parent="pl_catalog_menu"
                   name="Client" sequence="400"/>
 
 </odoo>

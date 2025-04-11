@@ -19,40 +19,42 @@ class PLWorkAssignment(models.Model):
                    ('done', _('Завершено'))],
         default="plan",
     )
-    pl_foreman_id = fields.Many2one(
+    foreman_id = fields.Many2one(
         comodel_name='pl.foreman',
-        string=_("Foreman"),
     )
-    pl_order_product_id = fields.Many2one(
+    order_product_id = fields.Many2one(
         comodel_name='pl.order.product',
-        string=_("Order Product"),
     )
-    pl_stage_id = fields.Many2one(
+    stage_id = fields.Many2one(
         comodel_name='pl.stage',
-        string=_("Stage"),
     )
-    pl_client_id = fields.Many2one(
-        related='pl_order_product_id.pl_client_order_id.pl_client_id',
-        string=_("Client"),
+    client_id = fields.Many2one(
+        related='order_product_id.client_order_id.client_id',
+        store=True,
     )
-    pl_order_id = fields.Many2one(
-        related='pl_order_product_id.pl_client_order_id',
-        string=_("Client order"),
+    order_id = fields.Many2one(
+        related='order_product_id.client_order_id',
+        store=True,
     )
-    pl_product_id = fields.Many2one(
-        related='pl_order_product_id.pl_product_id',
-        string=_("Product"),
+    product_id = fields.Many2one(
+        related='order_product_id.product_id',
+        store=True,
     )
-    pl_process_id = fields.Char(
-        related='pl_stage_id.pl_process',
-        string=_("Process"),
+    process_id = fields.Char(
+        related='stage_id.process',
+        store=True,
     )
 
     work_start_datetime = fields.Datetime(required=True)
     work_finish_datetime = fields.Datetime(required=True)
     custom_name = fields.Char(
         string="Отображаемое имя",
-        compute="_compute_custom_name"
+        compute="_compute_custom_name",
+        store=True,
+    )
+    readonly_form = fields.Boolean(
+        compute="_compute_readonly_form",
+        store=True,
     )
 
 
@@ -64,11 +66,19 @@ class PLWorkAssignment(models.Model):
     #
     # ]
 
-    @api.depends('pl_foreman_id', 'pl_order_product_id', 'pl_stage_id')
+    @api.depends('foreman_id', 'order_product_id', 'stage_id')
     def _compute_custom_name(self):
         for record in self:
-            # Формируем строку из нужных полей, можно добавить любые нужные элементы
-            record.custom_name = f"{record.pl_foreman_id.name} / {record.pl_order_id.pl_order_number} / {record.pl_product_id.abbreviation} / {record.pl_stage_id.name}"
+            record.custom_name = f"{record.foreman_id.name} / {record.order_id.order_number} / {record.product_id.abbreviation} / {record.stage_id.name}"
+            record.client_id = record.order_product_id.client_order_id.client_id
+            record.order_id = record.order_product_id.client_order_id
+            record.product_id = record.order_product_id.product_id
+            record.process_id = record.stage_id.process
+
+    @api.depends('state')
+    def _compute_readonly_form(self):
+        for record in self:
+            record.readonly_form = record.state == 'done'
 
     # def name_get(self):
     #     return [(rec.id, "%s %s %s %s" % (rec.pl_foreman_id.name,

@@ -44,11 +44,11 @@
 
     <template id="pl_client_order_info_template">
         <div style="max-width: 600px; margin: 20px auto; padding: 20px; border: 1px solid #ddd; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
-            <h1 style="font-size: 24px; margin-bottom: 20px; text-align: center;">Замовлення № <span t-field="o.pl_order_number"/></h1>
+            <h1 style="font-size: 24px; margin-bottom: 20px; text-align: center;">Замовлення № <span t-field="o.order_number"/></h1>
 
             <div style="margin-bottom: 15px; text-align: center;">
                 <h2 style="font-size: 20px; font-weight: bold;">
-                    <span t-field="o.pl_client_id.name"/>
+                    <span t-field="o.client_id.name"/>
                 </h2>
             </div>
 
@@ -60,9 +60,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr t-foreach="o.pl_order_product_ids" t-as="products">
-                        <td><span t-field="products.pl_product_id"/></td>
-                        <td><span t-field="products.pl_quantity"/></td>
+                    <tr t-foreach="o.order_product_ids" t-as="products">
+                        <td><span t-field="products.product_id"/></td>
+                        <td><span t-field="products.quantity"/></td>
                    </tr>
                 </tbody>
             </table>

@@ -1,2196 +1,2196 @@
 ﻿<odoo>
 	<data noupdate="1">
-		<record id="pl_work_assignment_demo_190" model="pl.work.assignment">
+		<record id="work_assignment_demo_190" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-17 09:00:00</field>
 			<field name="work_start_datetime">2025-01-09 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_5"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_5"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_155" model="pl.work.assignment">
+		<record id="work_assignment_demo_155" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-18 09:00:00</field>
 			<field name="work_start_datetime">2025-04-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_34"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_34"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_18" model="pl.work.assignment">
+		<record id="work_assignment_demo_18" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-29 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_235" model="pl.work.assignment">
+		<record id="work_assignment_demo_235" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_1" model="pl.work.assignment">
+		<record id="work_assignment_demo_1" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-05 09:00:00</field>
 			<field name="work_start_datetime">2025-03-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_1"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_1"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_9" model="pl.work.assignment">
+		<record id="work_assignment_demo_9" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-04 01:00:00</field>
 			<field name="work_start_datetime">2025-02-28 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_8"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_8"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_3" model="pl.work.assignment">
+		<record id="work_assignment_demo_3" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-07 09:00:00</field>
 			<field name="work_start_datetime">2025-01-29 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_3"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_3"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_60" model="pl.work.assignment">
+		<record id="work_assignment_demo_60" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-09-13 18:00:00</field>
 			<field name="work_start_datetime">2024-09-13 14:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_197" model="pl.work.assignment">
+		<record id="work_assignment_demo_197" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-21 09:00:00</field>
 			<field name="work_start_datetime">2025-03-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_59"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_59"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_2" model="pl.work.assignment">
+		<record id="work_assignment_demo_2" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-10-06 09:00:00</field>
 			<field name="work_start_datetime">2024-09-30 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_2"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_2"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_23" model="pl.work.assignment">
+		<record id="work_assignment_demo_23" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-01 09:00:00</field>
 			<field name="work_start_datetime">2025-03-31 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_17"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_17"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_234" model="pl.work.assignment">
+		<record id="work_assignment_demo_234" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-19 17:00:00</field>
 			<field name="work_start_datetime">2025-02-19 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_50" model="pl.work.assignment">
+		<record id="work_assignment_demo_50" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-09-26 09:00:00</field>
 			<field name="work_start_datetime">2025-09-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_4" model="pl.work.assignment">
+		<record id="work_assignment_demo_4" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-27 09:00:00</field>
 			<field name="work_start_datetime">2025-03-26 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_4"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_4"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_37" model="pl.work.assignment">
+		<record id="work_assignment_demo_37" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-11-05 18:00:00</field>
 			<field name="work_start_datetime">2024-11-04 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_8" model="pl.work.assignment">
+		<record id="work_assignment_demo_8" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-04-17 18:00:00</field>
 			<field name="work_start_datetime">2025-04-16 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_51" model="pl.work.assignment">
+		<record id="work_assignment_demo_51" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-15 09:00:00</field>
 			<field name="work_start_datetime">2025-09-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_134" model="pl.work.assignment">
+		<record id="work_assignment_demo_134" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_5" model="pl.work.assignment">
+		<record id="work_assignment_demo_5" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_1"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_1"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_16" model="pl.work.assignment">
+		<record id="work_assignment_demo_16" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-01 09:00:00</field>
 			<field name="work_start_datetime">2025-03-31 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_6" model="pl.work.assignment">
+		<record id="work_assignment_demo_6" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-31 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_5"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_5"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_243" model="pl.work.assignment">
+		<record id="work_assignment_demo_243" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-23 16:00:00</field>
 			<field name="work_start_datetime">2025-03-21 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_2"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_2"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_56" model="pl.work.assignment">
+		<record id="work_assignment_demo_56" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-14 01:00:00</field>
 			<field name="work_start_datetime">2025-03-13 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_118" model="pl.work.assignment">
+		<record id="work_assignment_demo_118" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_42" model="pl.work.assignment">
+		<record id="work_assignment_demo_42" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-10-30 05:00:00</field>
 			<field name="work_start_datetime">2024-10-30 00:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_267" model="pl.work.assignment">
+		<record id="work_assignment_demo_267" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-09-12 23:00:00</field>
 			<field name="work_start_datetime">2024-09-12 20:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_34" model="pl.work.assignment">
+		<record id="work_assignment_demo_34" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-04-10 09:00:00</field>
 			<field name="work_start_datetime">2025-04-09 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_18"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_18"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_13" model="pl.work.assignment">
+		<record id="work_assignment_demo_13" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-10-30 23:00:00</field>
 			<field name="work_start_datetime">2024-10-30 20:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_7" model="pl.work.assignment">
+		<record id="work_assignment_demo_7" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-18 09:00:00</field>
 			<field name="work_start_datetime">2025-03-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_6"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_6"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_10" model="pl.work.assignment">
+		<record id="work_assignment_demo_10" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-16 09:00:00</field>
 			<field name="work_start_datetime">2025-04-14 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_11" model="pl.work.assignment">
+		<record id="work_assignment_demo_11" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-18 09:00:00</field>
 			<field name="work_start_datetime">2025-04-15 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_12" model="pl.work.assignment">
+		<record id="work_assignment_demo_12" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-10-22 18:00:00</field>
 			<field name="work_start_datetime">2024-10-22 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_45" model="pl.work.assignment">
+		<record id="work_assignment_demo_45" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-09 09:00:00</field>
 			<field name="work_start_datetime">2025-09-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_26" model="pl.work.assignment">
+		<record id="work_assignment_demo_26" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-20 09:00:00</field>
 			<field name="work_start_datetime">2025-02-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_14" model="pl.work.assignment">
+		<record id="work_assignment_demo_14" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-06 09:00:00</field>
 			<field name="work_start_datetime">2025-01-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_15" model="pl.work.assignment">
+		<record id="work_assignment_demo_15" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-04 09:00:00</field>
 			<field name="work_start_datetime">2025-01-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_9"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_8"/>
+			<field name="foreman_id" ref="foreman_demo_9"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_8"/>
 		</record>
-		<record id="pl_work_assignment_demo_213" model="pl.work.assignment">
+		<record id="work_assignment_demo_213" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-03 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_17" model="pl.work.assignment">
+		<record id="work_assignment_demo_17" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-11-11 09:00:00</field>
 			<field name="work_start_datetime">2024-11-07 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_14"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_14"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_57" model="pl.work.assignment">
+		<record id="work_assignment_demo_57" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-05 09:00:00</field>
 			<field name="work_start_datetime">2025-04-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_28"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_28"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_35" model="pl.work.assignment">
+		<record id="work_assignment_demo_35" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-11-07 09:00:00</field>
 			<field name="work_start_datetime">2024-11-06 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_222" model="pl.work.assignment">
+		<record id="work_assignment_demo_222" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-10-30 09:00:00</field>
 			<field name="work_start_datetime">2024-10-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_19" model="pl.work.assignment">
+		<record id="work_assignment_demo_19" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-01 09:00:00</field>
 			<field name="work_start_datetime">2025-04-30 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_206" model="pl.work.assignment">
+		<record id="work_assignment_demo_206" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-13 16:00:00</field>
 			<field name="work_start_datetime">2025-03-12 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_20" model="pl.work.assignment">
+		<record id="work_assignment_demo_20" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-02 09:00:00</field>
 			<field name="work_start_datetime">2025-04-01 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_16"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_16"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_216" model="pl.work.assignment">
+		<record id="work_assignment_demo_216" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-23 09:00:00</field>
 			<field name="work_start_datetime">2025-02-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_21" model="pl.work.assignment">
+		<record id="work_assignment_demo_21" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-12-26 09:00:00</field>
 			<field name="work_start_datetime">2024-12-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_189" model="pl.work.assignment">
+		<record id="work_assignment_demo_189" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-28 09:00:00</field>
 			<field name="work_start_datetime">2025-05-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_54"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_54"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_33" model="pl.work.assignment">
+		<record id="work_assignment_demo_33" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-25 09:00:00</field>
 			<field name="work_start_datetime">2024-11-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_22" model="pl.work.assignment">
+		<record id="work_assignment_demo_22" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-16 09:00:00</field>
 			<field name="work_start_datetime">2024-11-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_6"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_6"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_24" model="pl.work.assignment">
+		<record id="work_assignment_demo_24" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-11 09:00:00</field>
 			<field name="work_start_datetime">2025-04-09 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_18"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_18"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_25" model="pl.work.assignment">
+		<record id="work_assignment_demo_25" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-26 09:00:00</field>
 			<field name="work_start_datetime">2025-03-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_6"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_6"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_27" model="pl.work.assignment">
+		<record id="work_assignment_demo_27" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-17 16:00:00</field>
 			<field name="work_start_datetime">2025-03-17 14:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_93" model="pl.work.assignment">
+		<record id="work_assignment_demo_93" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-07 09:00:00</field>
 			<field name="work_start_datetime">2025-03-05 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_33"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_33"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_54" model="pl.work.assignment">
+		<record id="work_assignment_demo_54" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-14 16:00:00</field>
 			<field name="work_start_datetime">2025-03-13 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_27"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_27"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_28" model="pl.work.assignment">
+		<record id="work_assignment_demo_28" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-11-14 18:00:00</field>
 			<field name="work_start_datetime">2024-11-14 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_48" model="pl.work.assignment">
+		<record id="work_assignment_demo_48" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-11 09:00:00</field>
 			<field name="work_start_datetime">2025-09-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_46" model="pl.work.assignment">
+		<record id="work_assignment_demo_46" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-21 09:00:00</field>
 			<field name="work_start_datetime">2025-09-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_270" model="pl.work.assignment">
+		<record id="work_assignment_demo_270" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-25 09:00:00</field>
 			<field name="work_start_datetime">2025-03-21 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_59" model="pl.work.assignment">
+		<record id="work_assignment_demo_59" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-08 09:00:00</field>
 			<field name="work_start_datetime">2025-03-05 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_29" model="pl.work.assignment">
+		<record id="work_assignment_demo_29" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-02 09:00:00</field>
 			<field name="work_start_datetime">2025-04-01 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_6"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_6"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_30" model="pl.work.assignment">
+		<record id="work_assignment_demo_30" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-29 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_22"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_22"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_32" model="pl.work.assignment">
+		<record id="work_assignment_demo_32" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-04 09:00:00</field>
 			<field name="work_start_datetime">2025-04-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_16"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_16"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_58" model="pl.work.assignment">
+		<record id="work_assignment_demo_58" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-22 09:00:00</field>
 			<field name="work_start_datetime">2025-03-21 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_3"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_3"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_31" model="pl.work.assignment">
+		<record id="work_assignment_demo_31" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-15 09:00:00</field>
 			<field name="work_start_datetime">2025-03-14 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_145" model="pl.work.assignment">
+		<record id="work_assignment_demo_145" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-07 18:00:00</field>
 			<field name="work_start_datetime">2025-03-05 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_36" model="pl.work.assignment">
+		<record id="work_assignment_demo_36" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-09-13 18:00:00</field>
 			<field name="work_start_datetime">2024-09-13 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_38" model="pl.work.assignment">
+		<record id="work_assignment_demo_38" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-12-14 09:00:00</field>
 			<field name="work_start_datetime">2024-12-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_9"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_8"/>
+			<field name="foreman_id" ref="foreman_demo_9"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_8"/>
 		</record>
-		<record id="pl_work_assignment_demo_64" model="pl.work.assignment">
+		<record id="work_assignment_demo_64" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-30 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_87" model="pl.work.assignment">
+		<record id="work_assignment_demo_87" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-20 09:00:00</field>
 			<field name="work_start_datetime">2025-04-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_39" model="pl.work.assignment">
+		<record id="work_assignment_demo_39" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-21 09:00:00</field>
 			<field name="work_start_datetime">2025-05-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_14"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_14"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_215" model="pl.work.assignment">
+		<record id="work_assignment_demo_215" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-10-18 09:00:00</field>
 			<field name="work_start_datetime">2025-10-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_67"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_67"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_90" model="pl.work.assignment">
+		<record id="work_assignment_demo_90" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-02-28 03:00:00</field>
 			<field name="work_start_datetime">2025-02-28 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_33"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_33"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_40" model="pl.work.assignment">
+		<record id="work_assignment_demo_40" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-21 09:00:00</field>
 			<field name="work_start_datetime">2025-05-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_14"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_14"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_150" model="pl.work.assignment">
+		<record id="work_assignment_demo_150" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-07 09:00:00</field>
 			<field name="work_start_datetime">2024-11-06 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_41" model="pl.work.assignment">
+		<record id="work_assignment_demo_41" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-10-31 01:00:00</field>
 			<field name="work_start_datetime">2024-10-30 23:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_43" model="pl.work.assignment">
+		<record id="work_assignment_demo_43" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-17 09:00:00</field>
 			<field name="work_start_datetime">2024-11-12 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_14"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_14"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_224" model="pl.work.assignment">
+		<record id="work_assignment_demo_224" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-10-24 09:00:00</field>
 			<field name="work_start_datetime">2024-10-23 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_44" model="pl.work.assignment">
+		<record id="work_assignment_demo_44" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-09 09:00:00</field>
 			<field name="work_start_datetime">2025-09-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_92" model="pl.work.assignment">
+		<record id="work_assignment_demo_92" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-27 09:00:00</field>
 			<field name="work_start_datetime">2025-03-26 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_47" model="pl.work.assignment">
+		<record id="work_assignment_demo_47" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-04 15:00:00</field>
 			<field name="work_start_datetime">2025-09-03 15:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_173" model="pl.work.assignment">
+		<record id="work_assignment_demo_173" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-04 09:00:00</field>
 			<field name="work_start_datetime">2025-01-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_49" model="pl.work.assignment">
+		<record id="work_assignment_demo_49" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-20 09:00:00</field>
 			<field name="work_start_datetime">2025-09-16 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_52" model="pl.work.assignment">
+		<record id="work_assignment_demo_52" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-30 09:00:00</field>
 			<field name="work_start_datetime">2025-09-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_25"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_25"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_53" model="pl.work.assignment">
+		<record id="work_assignment_demo_53" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-08 09:00:00</field>
 			<field name="work_start_datetime">2025-09-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_55" model="pl.work.assignment">
+		<record id="work_assignment_demo_55" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-05 16:00:00</field>
 			<field name="work_start_datetime">2025-03-04 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_61" model="pl.work.assignment">
+		<record id="work_assignment_demo_61" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-01-05 09:00:00</field>
 			<field name="work_start_datetime">2024-12-30 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_28"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_28"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_271" model="pl.work.assignment">
+		<record id="work_assignment_demo_271" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-11 01:00:00</field>
 			<field name="work_start_datetime">2025-03-10 20:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_62" model="pl.work.assignment">
+		<record id="work_assignment_demo_62" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-05 09:00:00</field>
 			<field name="work_start_datetime">2025-02-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_188" model="pl.work.assignment">
+		<record id="work_assignment_demo_188" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-28 09:00:00</field>
 			<field name="work_start_datetime">2025-05-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_53"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_53"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_63" model="pl.work.assignment">
+		<record id="work_assignment_demo_63" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-24 09:00:00</field>
 			<field name="work_start_datetime">2025-03-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_28"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_28"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_65" model="pl.work.assignment">
+		<record id="work_assignment_demo_65" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_66" model="pl.work.assignment">
+		<record id="work_assignment_demo_66" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-11-29 18:00:00</field>
 			<field name="work_start_datetime">2024-11-26 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_16"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_16"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_204" model="pl.work.assignment">
+		<record id="work_assignment_demo_204" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-21 09:00:00</field>
 			<field name="work_start_datetime">2025-03-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_66"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_66"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_67" model="pl.work.assignment">
+		<record id="work_assignment_demo_67" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-01-28 01:00:00</field>
 			<field name="work_start_datetime">2025-01-28 00:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_263" model="pl.work.assignment">
+		<record id="work_assignment_demo_263" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-03 09:00:00</field>
 			<field name="work_start_datetime">2025-04-02 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_68" model="pl.work.assignment">
+		<record id="work_assignment_demo_68" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-29 09:00:00</field>
 			<field name="work_start_datetime">2025-01-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_172" model="pl.work.assignment">
+		<record id="work_assignment_demo_172" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-26 17:00:00</field>
 			<field name="work_start_datetime">2025-03-26 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_69" model="pl.work.assignment">
+		<record id="work_assignment_demo_69" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-19 09:00:00</field>
 			<field name="work_start_datetime">2025-03-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_30"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_30"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_70" model="pl.work.assignment">
+		<record id="work_assignment_demo_70" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-27 09:00:00</field>
 			<field name="work_start_datetime">2025-03-26 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_163" model="pl.work.assignment">
+		<record id="work_assignment_demo_163" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-11-20 09:00:00</field>
 			<field name="work_start_datetime">2025-11-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_40"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_40"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_71" model="pl.work.assignment">
+		<record id="work_assignment_demo_71" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-06 17:00:00</field>
 			<field name="work_start_datetime">2024-11-06 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_82" model="pl.work.assignment">
+		<record id="work_assignment_demo_82" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-02 17:00:00</field>
 			<field name="work_start_datetime">2025-09-02 15:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_72" model="pl.work.assignment">
+		<record id="work_assignment_demo_72" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-13 02:00:00</field>
 			<field name="work_start_datetime">2025-03-12 21:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_73" model="pl.work.assignment">
+		<record id="work_assignment_demo_73" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-10-26 09:00:00</field>
 			<field name="work_start_datetime">2024-10-23 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_148" model="pl.work.assignment">
+		<record id="work_assignment_demo_148" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-11-02 18:00:00</field>
 			<field name="work_start_datetime">2024-10-28 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_39"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_39"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_74" model="pl.work.assignment">
+		<record id="work_assignment_demo_74" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-21 09:00:00</field>
 			<field name="work_start_datetime">2025-03-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_75" model="pl.work.assignment">
+		<record id="work_assignment_demo_75" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-14 01:00:00</field>
 			<field name="work_start_datetime">2025-03-13 17:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_13"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_13"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_76" model="pl.work.assignment">
+		<record id="work_assignment_demo_76" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-14 09:00:00</field>
 			<field name="work_start_datetime">2025-01-07 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_83" model="pl.work.assignment">
+		<record id="work_assignment_demo_83" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-04 17:00:00</field>
 			<field name="work_start_datetime">2025-09-04 15:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_77" model="pl.work.assignment">
+		<record id="work_assignment_demo_77" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-10-03 09:00:00</field>
 			<field name="work_start_datetime">2024-09-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_4"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_4"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_194" model="pl.work.assignment">
+		<record id="work_assignment_demo_194" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-18 16:00:00</field>
 			<field name="work_start_datetime">2025-03-17 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_56"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_56"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_178" model="pl.work.assignment">
+		<record id="work_assignment_demo_178" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-20 09:00:00</field>
 			<field name="work_start_datetime">2025-03-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_44"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_44"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_78" model="pl.work.assignment">
+		<record id="work_assignment_demo_78" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-01-03 17:00:00</field>
 			<field name="work_start_datetime">2025-01-02 14:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_79" model="pl.work.assignment">
+		<record id="work_assignment_demo_79" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-09-18 09:00:00</field>
 			<field name="work_start_datetime">2024-09-16 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_80" model="pl.work.assignment">
+		<record id="work_assignment_demo_80" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-25 09:00:00</field>
 			<field name="work_start_datetime">2025-09-23 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_81" model="pl.work.assignment">
+		<record id="work_assignment_demo_81" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-24 09:00:00</field>
 			<field name="work_start_datetime">2025-09-23 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_84" model="pl.work.assignment">
+		<record id="work_assignment_demo_84" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-14 09:00:00</field>
 			<field name="work_start_datetime">2025-09-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_85" model="pl.work.assignment">
+		<record id="work_assignment_demo_85" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-04 09:00:00</field>
 			<field name="work_start_datetime">2025-09-02 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_86" model="pl.work.assignment">
+		<record id="work_assignment_demo_86" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-19 09:00:00</field>
 			<field name="work_start_datetime">2025-09-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_88" model="pl.work.assignment">
+		<record id="work_assignment_demo_88" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-25 09:00:00</field>
 			<field name="work_start_datetime">2025-04-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_89" model="pl.work.assignment">
+		<record id="work_assignment_demo_89" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-18 09:00:00</field>
 			<field name="work_start_datetime">2025-03-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_22"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_22"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_91" model="pl.work.assignment">
+		<record id="work_assignment_demo_91" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-06 00:00:00</field>
 			<field name="work_start_datetime">2025-03-05 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_33"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_33"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_94" model="pl.work.assignment">
+		<record id="work_assignment_demo_94" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-02 18:00:00</field>
 			<field name="work_start_datetime">2025-02-28 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_14"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_33"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_14"/>
+			<field name="order_product_id" ref="order_product_demo_33"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_95" model="pl.work.assignment">
+		<record id="work_assignment_demo_95" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-08 16:00:00</field>
 			<field name="work_start_datetime">2025-03-04 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_27"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_27"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_96" model="pl.work.assignment">
+		<record id="work_assignment_demo_96" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-20 09:00:00</field>
 			<field name="work_start_datetime">2025-02-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_34"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_34"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_97" model="pl.work.assignment">
+		<record id="work_assignment_demo_97" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-26 17:00:00</field>
 			<field name="work_start_datetime">2025-03-26 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_98" model="pl.work.assignment">
+		<record id="work_assignment_demo_98" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-21 16:00:00</field>
 			<field name="work_start_datetime">2025-03-18 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_99" model="pl.work.assignment">
+		<record id="work_assignment_demo_99" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-12-17 09:00:00</field>
 			<field name="work_start_datetime">2024-12-13 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_100" model="pl.work.assignment">
+		<record id="work_assignment_demo_100" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-09-13 18:00:00</field>
 			<field name="work_start_datetime">2024-09-11 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_9"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_8"/>
+			<field name="foreman_id" ref="foreman_demo_9"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_8"/>
 		</record>
-		<record id="pl_work_assignment_demo_101" model="pl.work.assignment">
+		<record id="work_assignment_demo_101" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-10-31 18:00:00</field>
 			<field name="work_start_datetime">2024-10-31 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_13"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_13"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_102" model="pl.work.assignment">
+		<record id="work_assignment_demo_102" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-05 09:00:00</field>
 			<field name="work_start_datetime">2025-04-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_103" model="pl.work.assignment">
+		<record id="work_assignment_demo_103" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-23 09:00:00</field>
 			<field name="work_start_datetime">2024-11-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_198" model="pl.work.assignment">
+		<record id="work_assignment_demo_198" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-05-18 01:00:00</field>
 			<field name="work_start_datetime">2025-05-17 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_60"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_60"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_104" model="pl.work.assignment">
+		<record id="work_assignment_demo_104" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-04 09:00:00</field>
 			<field name="work_start_datetime">2025-04-01 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_105" model="pl.work.assignment">
+		<record id="work_assignment_demo_105" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-01 09:00:00</field>
 			<field name="work_start_datetime">2025-03-31 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_106" model="pl.work.assignment">
+		<record id="work_assignment_demo_106" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-15 09:00:00</field>
 			<field name="work_start_datetime">2025-03-13 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_14"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_14"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_107" model="pl.work.assignment">
+		<record id="work_assignment_demo_107" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-07 01:00:00</field>
 			<field name="work_start_datetime">2025-03-06 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_221" model="pl.work.assignment">
+		<record id="work_assignment_demo_221" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-12-04 09:00:00</field>
 			<field name="work_start_datetime">2024-11-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_17"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_17"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_108" model="pl.work.assignment">
+		<record id="work_assignment_demo_108" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-22 09:00:00</field>
 			<field name="work_start_datetime">2025-03-21 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_17"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_17"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_109" model="pl.work.assignment">
+		<record id="work_assignment_demo_109" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-11-13 01:00:00</field>
 			<field name="work_start_datetime">2024-11-12 21:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_248" model="pl.work.assignment">
+		<record id="work_assignment_demo_248" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-26 17:00:00</field>
 			<field name="work_start_datetime">2025-02-26 14:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_140" model="pl.work.assignment">
+		<record id="work_assignment_demo_140" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-27 09:00:00</field>
 			<field name="work_start_datetime">2025-04-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_34"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_34"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_110" model="pl.work.assignment">
+		<record id="work_assignment_demo_110" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-11 16:00:00</field>
 			<field name="work_start_datetime">2025-03-10 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_27"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_27"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_141" model="pl.work.assignment">
+		<record id="work_assignment_demo_141" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-24 16:00:00</field>
 			<field name="work_start_datetime">2025-03-17 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_111" model="pl.work.assignment">
+		<record id="work_assignment_demo_111" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-11-14 01:00:00</field>
 			<field name="work_start_datetime">2024-11-13 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_112" model="pl.work.assignment">
+		<record id="work_assignment_demo_112" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-28 17:00:00</field>
 			<field name="work_start_datetime">2025-01-28 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_160" model="pl.work.assignment">
+		<record id="work_assignment_demo_160" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-11-21 09:00:00</field>
 			<field name="work_start_datetime">2025-11-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_40"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_40"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_113" model="pl.work.assignment">
+		<record id="work_assignment_demo_113" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-17 09:00:00</field>
 			<field name="work_start_datetime">2025-03-07 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_114" model="pl.work.assignment">
+		<record id="work_assignment_demo_114" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-29 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_27"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_27"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_244" model="pl.work.assignment">
+		<record id="work_assignment_demo_244" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-08 16:00:00</field>
 			<field name="work_start_datetime">2025-03-07 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_4"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_4"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_115" model="pl.work.assignment">
+		<record id="work_assignment_demo_115" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-02-10 09:00:00</field>
 			<field name="work_start_datetime">2025-02-05 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_34"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_34"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_116" model="pl.work.assignment">
+		<record id="work_assignment_demo_116" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-03 09:00:00</field>
 			<field name="work_start_datetime">2025-04-02 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_30"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_30"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_211" model="pl.work.assignment">
+		<record id="work_assignment_demo_211" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-20 17:00:00</field>
 			<field name="work_start_datetime">2025-03-20 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_117" model="pl.work.assignment">
+		<record id="work_assignment_demo_117" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-29 09:00:00</field>
 			<field name="work_start_datetime">2025-03-24 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_34"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_34"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_119" model="pl.work.assignment">
+		<record id="work_assignment_demo_119" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-25 09:00:00</field>
 			<field name="work_start_datetime">2025-03-24 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_237" model="pl.work.assignment">
+		<record id="work_assignment_demo_237" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-11-10 09:00:00</field>
 			<field name="work_start_datetime">2024-11-05 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_39"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_39"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_220" model="pl.work.assignment">
+		<record id="work_assignment_demo_220" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-30 09:00:00</field>
 			<field name="work_start_datetime">2025-05-29 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_70"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_70"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_158" model="pl.work.assignment">
+		<record id="work_assignment_demo_158" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-01-28 09:00:00</field>
 			<field name="work_start_datetime">2025-01-22 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_3"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_3"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_120" model="pl.work.assignment">
+		<record id="work_assignment_demo_120" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-28 09:00:00</field>
 			<field name="work_start_datetime">2025-02-24 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_121" model="pl.work.assignment">
+		<record id="work_assignment_demo_121" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-02-25 01:00:00</field>
 			<field name="work_start_datetime">2025-02-24 21:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_122" model="pl.work.assignment">
+		<record id="work_assignment_demo_122" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-19 13:00:00</field>
 			<field name="work_start_datetime">2025-02-18 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_123" model="pl.work.assignment">
+		<record id="work_assignment_demo_123" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-12 09:00:00</field>
 			<field name="work_start_datetime">2025-04-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_124" model="pl.work.assignment">
+		<record id="work_assignment_demo_124" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-10-21 09:00:00</field>
 			<field name="work_start_datetime">2025-10-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_35"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_35"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_239" model="pl.work.assignment">
+		<record id="work_assignment_demo_239" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-13 01:00:00</field>
 			<field name="work_start_datetime">2025-03-13 00:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_13"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_13"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_125" model="pl.work.assignment">
+		<record id="work_assignment_demo_125" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-15 09:00:00</field>
 			<field name="work_start_datetime">2025-03-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_191" model="pl.work.assignment">
+		<record id="work_assignment_demo_191" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-28 09:00:00</field>
 			<field name="work_start_datetime">2025-05-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_54"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_54"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_126" model="pl.work.assignment">
+		<record id="work_assignment_demo_126" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-01-01 23:00:00</field>
 			<field name="work_start_datetime">2024-12-31 23:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_127" model="pl.work.assignment">
+		<record id="work_assignment_demo_127" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-18 09:00:00</field>
 			<field name="work_start_datetime">2025-03-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_128" model="pl.work.assignment">
+		<record id="work_assignment_demo_128" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-30 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_129" model="pl.work.assignment">
+		<record id="work_assignment_demo_129" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-10-21 09:00:00</field>
 			<field name="work_start_datetime">2025-10-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_36"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_36"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_130" model="pl.work.assignment">
+		<record id="work_assignment_demo_130" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-08 09:00:00</field>
 			<field name="work_start_datetime">2025-04-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_131" model="pl.work.assignment">
+		<record id="work_assignment_demo_131" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-04 09:00:00</field>
 			<field name="work_start_datetime">2025-04-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_28"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_28"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_132" model="pl.work.assignment">
+		<record id="work_assignment_demo_132" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-08-27 18:00:00</field>
 			<field name="work_start_datetime">2024-08-23 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_1"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_1"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_226" model="pl.work.assignment">
+		<record id="work_assignment_demo_226" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-12-27 18:00:00</field>
 			<field name="work_start_datetime">2024-12-23 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_28"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_28"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_133" model="pl.work.assignment">
+		<record id="work_assignment_demo_133" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-01 09:00:00</field>
 			<field name="work_start_datetime">2025-02-26 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_135" model="pl.work.assignment">
+		<record id="work_assignment_demo_135" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-15 18:00:00</field>
 			<field name="work_start_datetime">2025-03-13 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_30"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_30"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_136" model="pl.work.assignment">
+		<record id="work_assignment_demo_136" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-01-03 17:00:00</field>
 			<field name="work_start_datetime">2025-01-03 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_12"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_12"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_205" model="pl.work.assignment">
+		<record id="work_assignment_demo_205" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-12-14 09:00:00</field>
 			<field name="work_start_datetime">2024-12-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_137" model="pl.work.assignment">
+		<record id="work_assignment_demo_137" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-16 09:00:00</field>
 			<field name="work_start_datetime">2025-03-14 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_32"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_32"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_138" model="pl.work.assignment">
+		<record id="work_assignment_demo_138" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-06 09:00:00</field>
 			<field name="work_start_datetime">2025-03-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_139" model="pl.work.assignment">
+		<record id="work_assignment_demo_139" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-02-25 18:00:00</field>
 			<field name="work_start_datetime">2025-02-25 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_142" model="pl.work.assignment">
+		<record id="work_assignment_demo_142" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-03 09:00:00</field>
 			<field name="work_start_datetime">2024-11-01 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_11"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_11"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_143" model="pl.work.assignment">
+		<record id="work_assignment_demo_143" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-07 17:00:00</field>
 			<field name="work_start_datetime">2025-03-07 14:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_144" model="pl.work.assignment">
+		<record id="work_assignment_demo_144" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-10-21 09:00:00</field>
 			<field name="work_start_datetime">2025-10-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_37"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_37"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_223" model="pl.work.assignment">
+		<record id="work_assignment_demo_223" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-19 09:00:00</field>
 			<field name="work_start_datetime">2025-04-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_146" model="pl.work.assignment">
+		<record id="work_assignment_demo_146" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-11-21 09:00:00</field>
 			<field name="work_start_datetime">2025-11-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_38"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_38"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_147" model="pl.work.assignment">
+		<record id="work_assignment_demo_147" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_39"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_39"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_149" model="pl.work.assignment">
+		<record id="work_assignment_demo_149" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-12-07 09:00:00</field>
 			<field name="work_start_datetime">2024-12-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_6"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_6"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_151" model="pl.work.assignment">
+		<record id="work_assignment_demo_151" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-01 09:00:00</field>
 			<field name="work_start_datetime">2025-03-31 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_152" model="pl.work.assignment">
+		<record id="work_assignment_demo_152" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-25 09:00:00</field>
 			<field name="work_start_datetime">2025-03-24 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_33"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_33"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_153" model="pl.work.assignment">
+		<record id="work_assignment_demo_153" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-29 09:00:00</field>
 			<field name="work_start_datetime">2025-03-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_30"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_30"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_154" model="pl.work.assignment">
+		<record id="work_assignment_demo_154" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-03 09:00:00</field>
 			<field name="work_start_datetime">2025-04-02 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_3"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_3"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_156" model="pl.work.assignment">
+		<record id="work_assignment_demo_156" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-15 09:00:00</field>
 			<field name="work_start_datetime">2025-03-13 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_39"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_39"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_201" model="pl.work.assignment">
+		<record id="work_assignment_demo_201" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-02 09:00:00</field>
 			<field name="work_start_datetime">2025-05-01 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_63"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_63"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_157" model="pl.work.assignment">
+		<record id="work_assignment_demo_157" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-29 09:00:00</field>
 			<field name="work_start_datetime">2025-04-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_159" model="pl.work.assignment">
+		<record id="work_assignment_demo_159" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-11-09 09:00:00</field>
 			<field name="work_start_datetime">2025-11-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_40"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_40"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_192" model="pl.work.assignment">
+		<record id="work_assignment_demo_192" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-21 09:00:00</field>
 			<field name="work_start_datetime">2025-05-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_15"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_55"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_15"/>
+			<field name="order_product_id" ref="order_product_demo_55"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_161" model="pl.work.assignment">
+		<record id="work_assignment_demo_161" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-11-21 09:00:00</field>
 			<field name="work_start_datetime">2025-11-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_40"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_40"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_162" model="pl.work.assignment">
+		<record id="work_assignment_demo_162" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-11-17 09:00:00</field>
 			<field name="work_start_datetime">2025-11-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_14"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_40"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_14"/>
+			<field name="order_product_id" ref="order_product_demo_40"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_164" model="pl.work.assignment">
+		<record id="work_assignment_demo_164" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-02-24 21:00:00</field>
 			<field name="work_start_datetime">2025-02-24 19:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_7"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_7"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_260" model="pl.work.assignment">
+		<record id="work_assignment_demo_260" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-19 09:00:00</field>
 			<field name="work_start_datetime">2025-03-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_17"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_17"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_165" model="pl.work.assignment">
+		<record id="work_assignment_demo_165" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-10-19 09:00:00</field>
 			<field name="work_start_datetime">2024-10-14 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_22"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_22"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_166" model="pl.work.assignment">
+		<record id="work_assignment_demo_166" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-09-10 09:00:00</field>
 			<field name="work_start_datetime">2024-08-30 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_1"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_1"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_167" model="pl.work.assignment">
+		<record id="work_assignment_demo_167" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-08 09:00:00</field>
 			<field name="work_start_datetime">2025-03-07 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_41"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_41"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_168" model="pl.work.assignment">
+		<record id="work_assignment_demo_168" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-26 09:00:00</field>
 			<field name="work_start_datetime">2025-03-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_41"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_41"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_169" model="pl.work.assignment">
+		<record id="work_assignment_demo_169" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-06 23:00:00</field>
 			<field name="work_start_datetime">2025-03-06 21:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_170" model="pl.work.assignment">
+		<record id="work_assignment_demo_170" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-13 17:00:00</field>
 			<field name="work_start_datetime">2025-03-13 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_171" model="pl.work.assignment">
+		<record id="work_assignment_demo_171" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-14 09:00:00</field>
 			<field name="work_start_datetime">2025-03-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_22"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_22"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_174" model="pl.work.assignment">
+		<record id="work_assignment_demo_174" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-10-24 09:00:00</field>
 			<field name="work_start_datetime">2024-10-23 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_175" model="pl.work.assignment">
+		<record id="work_assignment_demo_175" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-18 09:00:00</field>
 			<field name="work_start_datetime">2025-03-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_16"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_16"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_176" model="pl.work.assignment">
+		<record id="work_assignment_demo_176" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-17 09:00:00</field>
 			<field name="work_start_datetime">2025-05-16 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_42"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_42"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_177" model="pl.work.assignment">
+		<record id="work_assignment_demo_177" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-29 09:00:00</field>
 			<field name="work_start_datetime">2025-04-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_43"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_43"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_179" model="pl.work.assignment">
+		<record id="work_assignment_demo_179" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-27 09:00:00</field>
 			<field name="work_start_datetime">2025-05-26 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_45"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_45"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_180" model="pl.work.assignment">
+		<record id="work_assignment_demo_180" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-29 09:00:00</field>
 			<field name="work_start_datetime">2025-04-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_46"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_46"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_181" model="pl.work.assignment">
+		<record id="work_assignment_demo_181" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-29 09:00:00</field>
 			<field name="work_start_datetime">2025-05-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_47"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_47"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_182" model="pl.work.assignment">
+		<record id="work_assignment_demo_182" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-29 09:00:00</field>
 			<field name="work_start_datetime">2025-05-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_48"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_48"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_183" model="pl.work.assignment">
+		<record id="work_assignment_demo_183" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-11 16:00:00</field>
 			<field name="work_start_datetime">2025-03-10 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_1"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_1"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_184" model="pl.work.assignment">
+		<record id="work_assignment_demo_184" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-29 09:00:00</field>
 			<field name="work_start_datetime">2025-04-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_49"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_49"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_185" model="pl.work.assignment">
+		<record id="work_assignment_demo_185" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-29 09:00:00</field>
 			<field name="work_start_datetime">2025-05-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_50"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_50"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_186" model="pl.work.assignment">
+		<record id="work_assignment_demo_186" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-20 09:00:00</field>
 			<field name="work_start_datetime">2025-05-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_51"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_51"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_187" model="pl.work.assignment">
+		<record id="work_assignment_demo_187" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-29 09:00:00</field>
 			<field name="work_start_datetime">2025-05-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_52"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_52"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_193" model="pl.work.assignment">
+		<record id="work_assignment_demo_193" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-13 09:00:00</field>
 			<field name="work_start_datetime">2025-04-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_195" model="pl.work.assignment">
+		<record id="work_assignment_demo_195" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-21 09:00:00</field>
 			<field name="work_start_datetime">2025-05-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_57"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_57"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_209" model="pl.work.assignment">
+		<record id="work_assignment_demo_209" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-19 09:00:00</field>
 			<field name="work_start_datetime">2025-03-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_20"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_20"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_202" model="pl.work.assignment">
+		<record id="work_assignment_demo_202" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-21 09:00:00</field>
 			<field name="work_start_datetime">2025-05-20 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_64"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_64"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_196" model="pl.work.assignment">
+		<record id="work_assignment_demo_196" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-05-18 01:00:00</field>
 			<field name="work_start_datetime">2025-05-17 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_58"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_58"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_199" model="pl.work.assignment">
+		<record id="work_assignment_demo_199" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-05-18 01:00:00</field>
 			<field name="work_start_datetime">2025-05-17 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_61"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_61"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_200" model="pl.work.assignment">
+		<record id="work_assignment_demo_200" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-05-18 01:00:00</field>
 			<field name="work_start_datetime">2025-05-17 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_62"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_62"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_203" model="pl.work.assignment">
+		<record id="work_assignment_demo_203" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-05-18 01:00:00</field>
 			<field name="work_start_datetime">2025-05-17 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_65"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_65"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_207" model="pl.work.assignment">
+		<record id="work_assignment_demo_207" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-07 16:00:00</field>
 			<field name="work_start_datetime">2025-03-06 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_41"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_41"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_208" model="pl.work.assignment">
+		<record id="work_assignment_demo_208" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-15 16:00:00</field>
 			<field name="work_start_datetime">2025-03-11 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_10"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_10"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_210" model="pl.work.assignment">
+		<record id="work_assignment_demo_210" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-09-17 09:00:00</field>
 			<field name="work_start_datetime">2024-09-16 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_212" model="pl.work.assignment">
+		<record id="work_assignment_demo_212" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-01-28 17:00:00</field>
 			<field name="work_start_datetime">2025-01-28 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_214" model="pl.work.assignment">
+		<record id="work_assignment_demo_214" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-10-23 17:00:00</field>
 			<field name="work_start_datetime">2024-10-23 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_10"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_10"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_217" model="pl.work.assignment">
+		<record id="work_assignment_demo_217" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-29 09:00:00</field>
 			<field name="work_start_datetime">2025-04-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_68"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_68"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_218" model="pl.work.assignment">
+		<record id="work_assignment_demo_218" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-26 09:00:00</field>
 			<field name="work_start_datetime">2025-04-24 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_69"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_69"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_219" model="pl.work.assignment">
+		<record id="work_assignment_demo_219" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-02-20 09:00:00</field>
 			<field name="work_start_datetime">2025-02-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_19"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_19"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_225" model="pl.work.assignment">
+		<record id="work_assignment_demo_225" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-12-03 09:00:00</field>
 			<field name="work_start_datetime">2024-12-02 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_16"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_16"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_227" model="pl.work.assignment">
+		<record id="work_assignment_demo_227" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-05-20 09:00:00</field>
 			<field name="work_start_datetime">2025-05-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_71"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_71"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_228" model="pl.work.assignment">
+		<record id="work_assignment_demo_228" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-09-01 09:00:00</field>
 			<field name="work_start_datetime">2025-08-28 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_26"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_26"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_229" model="pl.work.assignment">
+		<record id="work_assignment_demo_229" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-12-16 09:00:00</field>
 			<field name="work_start_datetime">2024-12-09 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_17"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_17"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_242" model="pl.work.assignment">
+		<record id="work_assignment_demo_242" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-30 09:00:00</field>
 			<field name="work_start_datetime">2025-04-29 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_230" model="pl.work.assignment">
+		<record id="work_assignment_demo_230" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-28 17:00:00</field>
 			<field name="work_start_datetime">2025-01-28 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_13"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_13"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_231" model="pl.work.assignment">
+		<record id="work_assignment_demo_231" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-11-09 09:00:00</field>
 			<field name="work_start_datetime">2024-11-06 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_232" model="pl.work.assignment">
+		<record id="work_assignment_demo_232" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-28 09:00:00</field>
 			<field name="work_start_datetime">2025-03-27 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_2"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_2"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_233" model="pl.work.assignment">
+		<record id="work_assignment_demo_233" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-30 09:00:00</field>
 			<field name="work_start_datetime">2025-04-29 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_15"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_15"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_236" model="pl.work.assignment">
+		<record id="work_assignment_demo_236" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2024-10-16 09:00:00</field>
 			<field name="work_start_datetime">2024-10-07 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_2"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_2"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_238" model="pl.work.assignment">
+		<record id="work_assignment_demo_238" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-13 09:00:00</field>
 			<field name="work_start_datetime">2025-04-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_240" model="pl.work.assignment">
+		<record id="work_assignment_demo_240" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-20 09:00:00</field>
 			<field name="work_start_datetime">2025-04-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_241" model="pl.work.assignment">
+		<record id="work_assignment_demo_241" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-06 09:00:00</field>
 			<field name="work_start_datetime">2025-03-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_9"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_8"/>
+			<field name="foreman_id" ref="foreman_demo_9"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_8"/>
 		</record>
-		<record id="pl_work_assignment_demo_245" model="pl.work.assignment">
+		<record id="work_assignment_demo_245" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-12 09:00:00</field>
 			<field name="work_start_datetime">2025-03-11 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_2"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_2"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_246" model="pl.work.assignment">
+		<record id="work_assignment_demo_246" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-11 09:00:00</field>
 			<field name="work_start_datetime">2025-03-10 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_4"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_4"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_247" model="pl.work.assignment">
+		<record id="work_assignment_demo_247" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-02 09:00:00</field>
 			<field name="work_start_datetime">2025-04-01 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_11"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_39"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_11"/>
+			<field name="order_product_id" ref="order_product_demo_39"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_249" model="pl.work.assignment">
+		<record id="work_assignment_demo_249" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-09-23 09:00:00</field>
 			<field name="work_start_datetime">2024-09-18 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_3"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_41"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_3"/>
+			<field name="foreman_id" ref="foreman_demo_3"/>
+			<field name="order_product_id" ref="order_product_demo_41"/>
+			<field name="stage_id" ref="stage_demo_3"/>
 		</record>
-		<record id="pl_work_assignment_demo_250" model="pl.work.assignment">
+		<record id="work_assignment_demo_250" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-04 09:00:00</field>
 			<field name="work_start_datetime">2025-04-03 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_3"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_3"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_251" model="pl.work.assignment">
+		<record id="work_assignment_demo_251" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-26 09:00:00</field>
 			<field name="work_start_datetime">2025-03-25 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_29"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_29"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_252" model="pl.work.assignment">
+		<record id="work_assignment_demo_252" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-04-30 17:00:00</field>
 			<field name="work_start_datetime">2025-04-30 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_72"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_72"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_253" model="pl.work.assignment">
+		<record id="work_assignment_demo_253" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-05 09:00:00</field>
 			<field name="work_start_datetime">2025-04-04 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_254" model="pl.work.assignment">
+		<record id="work_assignment_demo_254" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-14 17:00:00</field>
 			<field name="work_start_datetime">2025-04-14 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_9"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_9"/>
 		</record>
-		<record id="pl_work_assignment_demo_255" model="pl.work.assignment">
+		<record id="work_assignment_demo_255" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-11 17:00:00</field>
 			<field name="work_start_datetime">2025-04-11 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_256" model="pl.work.assignment">
+		<record id="work_assignment_demo_256" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-01-08 09:00:00</field>
 			<field name="work_start_datetime">2025-01-02 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_5"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_5"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_257" model="pl.work.assignment">
+		<record id="work_assignment_demo_257" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-20 09:00:00</field>
 			<field name="work_start_datetime">2025-03-19 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_5"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_5"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_5"/>
+			<field name="foreman_id" ref="foreman_demo_5"/>
+			<field name="order_product_id" ref="order_product_demo_5"/>
+			<field name="stage_id" ref="stage_demo_5"/>
 		</record>
-		<record id="pl_work_assignment_demo_258" model="pl.work.assignment">
+		<record id="work_assignment_demo_258" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-15 09:00:00</field>
 			<field name="work_start_datetime">2025-03-14 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_1"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_23"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_1"/>
+			<field name="order_product_id" ref="order_product_demo_23"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_259" model="pl.work.assignment">
+		<record id="work_assignment_demo_259" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2025-03-18 09:00:00</field>
 			<field name="work_start_datetime">2025-03-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_72"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_72"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_262" model="pl.work.assignment">
+		<record id="work_assignment_demo_262" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-25 09:00:00</field>
 			<field name="work_start_datetime">2025-03-24 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_4"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_5"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_4"/>
+			<field name="order_product_id" ref="order_product_demo_5"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_261" model="pl.work.assignment">
+		<record id="work_assignment_demo_261" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-14 17:00:00</field>
 			<field name="work_start_datetime">2025-03-14 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_264" model="pl.work.assignment">
+		<record id="work_assignment_demo_264" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-05-01 09:00:00</field>
 			<field name="work_start_datetime">2025-04-30 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_72"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_72"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
-		<record id="pl_work_assignment_demo_265" model="pl.work.assignment">
+		<record id="work_assignment_demo_265" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2024-09-12 20:00:00</field>
 			<field name="work_start_datetime">2024-09-12 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_7"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_24"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_6"/>
+			<field name="foreman_id" ref="foreman_demo_7"/>
+			<field name="order_product_id" ref="order_product_demo_24"/>
+			<field name="stage_id" ref="stage_demo_6"/>
 		</record>
-		<record id="pl_work_assignment_demo_266" model="pl.work.assignment">
+		<record id="work_assignment_demo_266" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-04-18 09:00:00</field>
 			<field name="work_start_datetime">2025-04-17 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_9"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_1"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_9"/>
+			<field name="stage_id" ref="stage_demo_1"/>
 		</record>
-		<record id="pl_work_assignment_demo_268" model="pl.work.assignment">
+		<record id="work_assignment_demo_268" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-03-11 17:00:00</field>
 			<field name="work_start_datetime">2025-03-11 13:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_12"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_10"/>
+			<field name="foreman_id" ref="foreman_demo_12"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_10"/>
 		</record>
-		<record id="pl_work_assignment_demo_269" model="pl.work.assignment">
+		<record id="work_assignment_demo_269" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-08 05:00:00</field>
 			<field name="work_start_datetime">2025-03-07 01:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_8"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_31"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_7"/>
+			<field name="foreman_id" ref="foreman_demo_8"/>
+			<field name="order_product_id" ref="order_product_demo_31"/>
+			<field name="stage_id" ref="stage_demo_7"/>
 		</record>
-		<record id="pl_work_assignment_demo_272" model="pl.work.assignment">
+		<record id="work_assignment_demo_272" model="pl.work.assignment">
 			<field name="state">in_process</field>
 			<field name="work_finish_datetime">2024-11-19 09:00:00</field>
 			<field name="work_start_datetime">2024-11-15 09:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_21"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_21"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_273" model="pl.work.assignment">
+		<record id="work_assignment_demo_273" model="pl.work.assignment">
 			<field name="state">done</field>
 			<field name="work_finish_datetime">2025-03-14 18:00:00</field>
 			<field name="work_start_datetime">2025-03-10 18:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_6"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_72"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_2"/>
+			<field name="foreman_id" ref="foreman_demo_6"/>
+			<field name="order_product_id" ref="order_product_demo_72"/>
+			<field name="stage_id" ref="stage_demo_2"/>
 		</record>
-		<record id="pl_work_assignment_demo_274" model="pl.work.assignment">
+		<record id="work_assignment_demo_274" model="pl.work.assignment">
 			<field name="state">plan</field>
 			<field name="work_finish_datetime">2025-11-19 17:00:00</field>
 			<field name="work_start_datetime">2025-11-18 16:00:00</field>
-			<field name="pl_foreman_id" ref="pl_foreman_demo_2"/>
-			<field name="pl_order_product_id" ref="pl_order_product_demo_73"/>
-			<field name="pl_stage_id" ref="pl_stage_demo_4"/>
+			<field name="foreman_id" ref="foreman_demo_2"/>
+			<field name="order_product_id" ref="order_product_demo_73"/>
+			<field name="stage_id" ref="stage_demo_4"/>
 		</record>
 	</data>
 </odoo>

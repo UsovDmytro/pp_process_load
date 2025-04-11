@@ -4,7 +4,7 @@
         <record id="pl_rule_user" model="ir.rule">
             <field name="name">User can only view own WA</field>
             <field name="model_id" ref="model_pl_work_assignment"/>
-            <field name="domain_force">[('pl_foreman_id', '=', user.pl_foreman_id.id)]</field>
+            <field name="domain_force">[('foreman_id', '=', user.pl_foreman_id.id)]</field>
             <field name="groups" eval="[(4, ref('group_pl_user'))]"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>

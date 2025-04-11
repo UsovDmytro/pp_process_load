@@ -15,6 +15,6 @@ class PLClient(models.Model):
 
     name = fields.Char()
 
-    client_order_ids = fields.One2many(comodel_name='pl.client.order', inverse_name='pl_client_id',
+    client_order_ids = fields.One2many(comodel_name='pl.client.order', inverse_name='client_id',
                                        string=_("Orders"),)
 

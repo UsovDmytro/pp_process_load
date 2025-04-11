@@ -1,182 +1,182 @@
 ﻿<odoo>
 	<data noupdate="1">
-		<record id="pl_product_demo_2" model="pl.product">
+		<record id="product_demo_2" model="pl.product">
 			<field name="name">Шафа №5</field>
 			<field name="abbreviation">Ш5</field>
 		</record>
-		<record id="pl_product_demo_41" model="pl.product">
+		<record id="product_demo_41" model="pl.product">
 			<field name="name">Тумба №3</field>
 			<field name="abbreviation">Т3</field>
 		</record>
-		<record id="pl_product_demo_25" model="pl.product">
+		<record id="product_demo_25" model="pl.product">
 			<field name="name">Стелаж</field>
 			<field name="abbreviation">СЖ</field>
 		</record>
-		<record id="pl_product_demo_18" model="pl.product">
+		<record id="product_demo_18" model="pl.product">
 			<field name="name">Стенд</field>
 			<field name="abbreviation">СД</field>
 		</record>
-		<record id="pl_product_demo_13" model="pl.product">
+		<record id="product_demo_13" model="pl.product">
 			<field name="name">Стелаж №2</field>
 			<field name="abbreviation">СЖ2</field>
 		</record>
-		<record id="pl_product_demo_1" model="pl.product">
+		<record id="product_demo_1" model="pl.product">
 			<field name="name">Острів</field>
 			<field name="abbreviation">О</field>
 		</record>
-		<record id="pl_product_demo_3" model="pl.product">
+		<record id="product_demo_3" model="pl.product">
 			<field name="name">Меблі для спальні №2</field>
 			<field name="abbreviation">МПС2</field>
 		</record>
-		<record id="pl_product_demo_27" model="pl.product">
+		<record id="product_demo_27" model="pl.product">
 			<field name="name">Меблі для гардеробу</field>
 			<field name="abbreviation">МГ</field>
 		</record>
-		<record id="pl_product_demo_24" model="pl.product">
+		<record id="product_demo_24" model="pl.product">
 			<field name="name">Меблі для кабінету</field>
 			<field name="abbreviation">МКБ</field>
 		</record>
-		<record id="pl_product_demo_23" model="pl.product">
+		<record id="product_demo_23" model="pl.product">
 			<field name="name">Меблі для санвузлу </field>
 			<field name="abbreviation">МС</field>
 		</record>
-		<record id="pl_product_demo_12" model="pl.product">
+		<record id="product_demo_12" model="pl.product">
 			<field name="name">Меблі для санвузлу №2</field>
 			<field name="abbreviation">МС2</field>
 		</record>
-		<record id="pl_product_demo_4" model="pl.product">
+		<record id="product_demo_4" model="pl.product">
 			<field name="name">Тумба</field>
 			<field name="abbreviation">Т</field>
 		</record>
-		<record id="pl_product_demo_5" model="pl.product">
+		<record id="product_demo_5" model="pl.product">
 			<field name="name">Меблі для пральні </field>
 			<field name="abbreviation">МПР</field>
 		</record>
-		<record id="pl_product_demo_43" model="pl.product">
+		<record id="product_demo_43" model="pl.product">
 			<field name="name">Меблі для санвузлу №6</field>
 			<field name="abbreviation">МС6</field>
 		</record>
-		<record id="pl_product_demo_32" model="pl.product">
+		<record id="product_demo_32" model="pl.product">
 			<field name="name">Меблі для дитячої</field>
 			<field name="abbreviation">МД</field>
 		</record>
-		<record id="pl_product_demo_28" model="pl.product">
+		<record id="product_demo_28" model="pl.product">
 			<field name="name">Меблі для санвузлу №11</field>
 			<field name="abbreviation">МС11</field>
 		</record>
-		<record id="pl_product_demo_6" model="pl.product">
+		<record id="product_demo_6" model="pl.product">
 			<field name="name">Меблі для спальні</field>
 			<field name="abbreviation">МСП</field>
 		</record>
-		<record id="pl_product_demo_38" model="pl.product">
+		<record id="product_demo_38" model="pl.product">
 			<field name="name">Декоративні елементи №3</field>
 			<field name="abbreviation">ДЕ3</field>
 		</record>
-		<record id="pl_product_demo_37" model="pl.product">
+		<record id="product_demo_37" model="pl.product">
 			<field name="name">Стінові панелі для вітальні №2</field>
 			<field name="abbreviation">СПВ2</field>
 		</record>
-		<record id="pl_product_demo_9" model="pl.product">
+		<record id="product_demo_9" model="pl.product">
 			<field name="name">Тумба TV</field>
 			<field name="abbreviation">ТТ</field>
 		</record>
-		<record id="pl_product_demo_40" model="pl.product">
+		<record id="product_demo_40" model="pl.product">
 			<field name="name">Меблі для санвузлу №4</field>
 			<field name="abbreviation">МС4</field>
 		</record>
-		<record id="pl_product_demo_29" model="pl.product">
+		<record id="product_demo_29" model="pl.product">
 			<field name="name">Меблі для санвузлу №5</field>
 			<field name="abbreviation">МС5</field>
 		</record>
-		<record id="pl_product_demo_19" model="pl.product">
+		<record id="product_demo_19" model="pl.product">
 			<field name="name">Стіл</field>
 			<field name="abbreviation">СЛ</field>
 		</record>
-		<record id="pl_product_demo_14" model="pl.product">
+		<record id="product_demo_14" model="pl.product">
 			<field name="name">Шафа</field>
 			<field name="abbreviation">Ш</field>
 		</record>
-		<record id="pl_product_demo_7" model="pl.product">
+		<record id="product_demo_7" model="pl.product">
 			<field name="name">Меблі для кухні</field>
 			<field name="abbreviation">МКУ</field>
 		</record>
-		<record id="pl_product_demo_8" model="pl.product">
+		<record id="product_demo_8" model="pl.product">
 			<field name="name">Двері міжкімнатні</field>
 			<field name="abbreviation">ДМ</field>
 		</record>
-		<record id="pl_product_demo_10" model="pl.product">
+		<record id="product_demo_10" model="pl.product">
 			<field name="name">Стінові панелі</field>
 			<field name="abbreviation">СП</field>
 		</record>
-		<record id="pl_product_demo_11" model="pl.product">
+		<record id="product_demo_11" model="pl.product">
 			<field name="name">Декоративні елементи</field>
 			<field name="abbreviation">ДЕ</field>
 		</record>
-		<record id="pl_product_demo_30" model="pl.product">
+		<record id="product_demo_30" model="pl.product">
 			<field name="name">Шафа №2</field>
 			<field name="abbreviation">Ш2</field>
 		</record>
-		<record id="pl_product_demo_20" model="pl.product">
+		<record id="product_demo_20" model="pl.product">
 			<field name="name">Шафа №3</field>
 			<field name="abbreviation">Ш3</field>
 		</record>
-		<record id="pl_product_demo_15" model="pl.product">
+		<record id="product_demo_15" model="pl.product">
 			<field name="name">Шафа №4</field>
 			<field name="abbreviation">Ш4</field>
 		</record>
-		<record id="pl_product_demo_16" model="pl.product">
+		<record id="product_demo_16" model="pl.product">
 			<field name="name">Меблі для рецепції</field>
 			<field name="abbreviation">МР</field>
 		</record>
-		<record id="pl_product_demo_17" model="pl.product">
+		<record id="product_demo_17" model="pl.product">
 			<field name="name">Меблі для кабінету №2</field>
 			<field name="abbreviation">МКБ2</field>
 		</record>
-		<record id="pl_product_demo_21" model="pl.product">
+		<record id="product_demo_21" model="pl.product">
 			<field name="name">Стіл №4</field>
 			<field name="abbreviation">СЛ4</field>
 		</record>
-		<record id="pl_product_demo_39" model="pl.product">
+		<record id="product_demo_39" model="pl.product">
 			<field name="name">Меблі для санвузлу №3</field>
 			<field name="abbreviation">МС3</field>
 		</record>
-		<record id="pl_product_demo_22" model="pl.product">
+		<record id="product_demo_22" model="pl.product">
 			<field name="name">Двері міжкімнатні №2</field>
 			<field name="abbreviation">ДМ2</field>
 		</record>
-		<record id="pl_product_demo_26" model="pl.product">
+		<record id="product_demo_26" model="pl.product">
 			<field name="name">М'які меблі</field>
 			<field name="abbreviation">ММ</field>
 		</record>
-		<record id="pl_product_demo_31" model="pl.product">
+		<record id="product_demo_31" model="pl.product">
 			<field name="name">Стіл №6</field>
 			<field name="abbreviation">СЛ6</field>
 		</record>
-		<record id="pl_product_demo_33" model="pl.product">
+		<record id="product_demo_33" model="pl.product">
 			<field name="name">Меблі для дитячої №2</field>
 			<field name="abbreviation">МД2</field>
 		</record>
-		<record id="pl_product_demo_45" model="pl.product">
+		<record id="product_demo_45" model="pl.product">
 			<field name="name">Меблі для гардеробу №4</field>
 			<field name="abbreviation">МГ4</field>
 		</record>
-		<record id="pl_product_demo_35" model="pl.product">
+		<record id="product_demo_35" model="pl.product">
 			<field name="name">Меблі для дитячої №3</field>
 			<field name="abbreviation">МД3</field>
 		</record>
-		<record id="pl_product_demo_34" model="pl.product">
+		<record id="product_demo_34" model="pl.product">
 			<field name="name">Стінові панелі для коридору</field>
 			<field name="abbreviation">СПКР</field>
 		</record>
-		<record id="pl_product_demo_36" model="pl.product">
+		<record id="product_demo_36" model="pl.product">
 			<field name="name">Декоративні елементи №2</field>
 			<field name="abbreviation">ДЕ2</field>
 		</record>
-		<record id="pl_product_demo_42" model="pl.product">
+		<record id="product_demo_42" model="pl.product">
 			<field name="name">Стіл №2</field>
 			<field name="abbreviation">СЛ2</field>
 		</record>
-		<record id="pl_product_demo_44" model="pl.product">
+		<record id="product_demo_44" model="pl.product">
 			<field name="name">Стінові панелі для кабінету</field>
 			<field name="abbreviation">СПК</field>
 		</record>

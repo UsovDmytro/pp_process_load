@@ -13,7 +13,7 @@ class PLStage(models.Model):
     _description = _('Stage')
 
     name = fields.Char()
-    pl_process = fields.Char()
+    process = fields.Char()
 
     # pl_process = fields.Selection(
     #     selection=[('slicing', _('slicing')),

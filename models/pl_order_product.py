@@ -13,22 +13,19 @@ class PLOrderProduct(models.Model):
     _name = 'pl.order.product'
     _description = _('Order Product')
     _rec_name = 'custom_name'
-    pl_product_id = fields.Many2one(
+    product_id = fields.Many2one(
         comodel_name='pl.product',
-        string=_("Product"),
     )
-    pl_quantity = fields.Integer()
+    quantity = fields.Integer()
 
-    pl_client_order_id = fields.Many2one(
+    client_order_id = fields.Many2one(
         comodel_name='pl.client.order',
-        string=_("Client order"),
     )
     custom_name = fields.Char(
         string="Отображаемое имя",
         compute="_compute_custom_name"
     )
-    @api.depends('pl_product_id', 'pl_client_order_id')
+    @api.depends('product_id', 'client_order_id')
     def _compute_custom_name(self):
         for record in self:
-            # Формируем строку из нужных полей, можно добавить любые нужные элементы
-            record.custom_name = f"{record.pl_product_id.name} / {record.pl_client_order_id.pl_order_number}"
+            record.custom_name = f"{record.product_id.name} / {record.client_order_id.order_number}"

@@ -4,8 +4,8 @@
             <field name="model">pl.client.order</field>
             <field name="arch" type="xml">
                 <tree>
-                    <field name="pl_order_number"/>
-                    <field name="pl_client_id"/>
+                    <field name="order_number"/>
+                    <field name="client_id"/>
                 </tree>
             </field>
         </record>
@@ -16,10 +16,14 @@
             <field name="arch" type="xml">
                 <form>
                     <group>
-                        <field name="pl_order_number"/>
-                        <field name="pl_client_id"/>
-                        <field name="pl_order_product_ids" widget="many2many_tags" readonly="1"/>
+                        <field name="order_number"/>
+                        <field name="client_id"/>
                     </group>
+                    <notebook>
+                        <page name="page_order_product_ids" string="Вироби">
+                            <field name="order_product_ids"/>
+                        </page>
+                    </notebook>
                 </form>
             </field>
         </record>

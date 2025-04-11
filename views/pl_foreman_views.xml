@@ -30,7 +30,7 @@
 
         <menuitem id="pl_menu_foreman"
                   action="action_pl_foreman_window"
-                  parent="pl_main_menu"
+                  parent="pl_catalog_menu"
                   name="Foreman" sequence="400"/>
 
 </odoo>
